@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #111; margin: 0; }
+    canvas { border: 2px solid #4f8ef7; }
+  </style>
+</head>
+<body>
+  <canvas id="c" width="400" height="400"></canvas>
+  <script>
+    const canvas = document.getElementById("c");
+    const ctx = canvas.getContext("2d");
+    const SIZE = 20;
+    let snake = [{x:10,y:10}], dir = {x:1,y:0}, food = {x:5,y:5};
+
+    function draw() {
+      ctx.fillStyle = "#111";
+      ctx.fillRect(0, 0, 400, 400);
+      ctx.fillStyle = "#4f8ef7";
+      snake.forEach(s => ctx.fillRect(s.x*SIZE, s.y*SIZE, SIZE-2, SIZE-2));
+      ctx.fillStyle = "#f74f4f";
+      ctx.fillRect(food.x*SIZE, food.y*SIZE, SIZE-2, SIZE-2);
+    }
+
+    function update() {
+      const head = {x: snake[0].x+dir.x, y: snake[0].y+dir.y};
+      if (head.x===food.x && head.y===food.y) {
+        food = {x: Math.floor(Math.random()*20), y: Math.floor(Math.random()*20)};
+      } else { snake.pop(); }
+      snake.unshift(head);
+      draw();
+    }
+
+    document.addEventListener("keydown", e => {
+      const map = {ArrowUp:{x:0,y:-1},ArrowDown:{x:0,y:1},ArrowLeft:{x:-1,y:0},ArrowRight:{x:1,y:0}};
+      if (map[e.key]) dir = map[e.key];
+    });
+
+    setInterval(update, 150);
+    draw();
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Clock</title>
+  <style>
+    body { display:flex; justify-content:center; align-items:center; height:100vh; background:#1a1a2e; margin:0; }
+    #clock { font-size:5rem; font-family:monospace; color:#e0e0ff; letter-spacing:0.1em; }
+  </style>
+</head>
+<body>
+  <div id="clock"></div>
+  <script>
+    function tick() {
+      document.getElementById("clock").textContent =
+        new Date().toLocaleTimeString("ja-JP");
+    }
+    tick();
+    setInterval(tick, 1000);
+  </script>
+</body>
+</html>
