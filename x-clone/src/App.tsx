@@ -10,7 +10,7 @@ export default function App() {
 
   async function loadProfile(uid: string) {
     const { data } = await supabase.from('profiles').select('username').eq('id', uid).single()
-    if (data) setUsername(data.username)
+    if (data) setUsername((data as { username: string }).username)
   }
 
   useEffect(() => {

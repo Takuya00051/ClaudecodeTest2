@@ -15,7 +15,7 @@ export default function TweetForm({ userId }: Props) {
     e.preventDefault()
     if (!content.trim() || loading) return
     setLoading(true)
-    await supabase.from('tweets').insert({ user_id: userId, content: content.trim() })
+    await supabase.from('tweets').insert([{ user_id: userId, content: content.trim() }] as never)
     setContent('')
     setLoading(false)
   }
