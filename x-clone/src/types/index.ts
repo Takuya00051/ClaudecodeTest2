@@ -15,6 +15,7 @@ export type Database = {
         Update: {
           username?: string
         }
+        Relationships: []
       }
       tweets: {
         Row: {
@@ -22,9 +23,6 @@ export type Database = {
           user_id: string
           content: string
           created_at: string
-          profiles: {
-            username: string
-          } | null
         }
         Insert: {
           id?: string
@@ -35,10 +33,19 @@ export type Database = {
         Update: {
           content?: string
         }
+        Relationships: []
       }
     }
+    Views: Record<string, never>
+    Functions: Record<string, never>
+    Enums: Record<string, never>
+    CompositeTypes: Record<string, never>
   }
 }
 
 export type Profile = Database['public']['Tables']['profiles']['Row']
-export type Tweet = Database['public']['Tables']['tweets']['Row']
+export type TweetRow = Database['public']['Tables']['tweets']['Row']
+
+export type Tweet = TweetRow & {
+  profiles: { username: string } | null
+}

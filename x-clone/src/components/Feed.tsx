@@ -20,7 +20,7 @@ export default function Feed({ userId, username, onLogout }: Props) {
       .select('*, profiles(username)')
       .order('created_at', { ascending: false })
       .limit(100)
-    if (data) setTweets(data as Tweet[])
+    if (data) setTweets(data as unknown as Tweet[])
     setLoading(false)
   }
 
