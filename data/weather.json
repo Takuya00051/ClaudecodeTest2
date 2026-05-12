@@ -1,0 +1,12 @@
+{
+  "city": "Tokyo",
+  "date": "2026-05-09",
+  "temperature": {
+    "min": 18,
+    "max": 26,
+    "unit": "celsius"
+  },
+  "condition": "partly_cloudy",
+  "humidity": 65,
+  "wind_speed_kmh": 12
+}
