@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BENOBI bros. — 大型犬フィギュアブランド</title>
+  <style>
+    :root {
+      --cream: #faf6f0;
+      --brown: #7a5c3a;
+      --brown-light: #c4955a;
+      --brown-dark: #4a3520;
+      --accent: #d4863a;
+      --text: #2d2017;
+      --text-muted: #7a6b5a;
+      --white: #ffffff;
+      --shadow: 0 4px 24px rgba(74, 53, 32, 0.12);
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Hiragino Kaku Gothic Pro', 'Noto Sans JP', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── ナビゲーション ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      box-shadow: 0 2px 12px rgba(74, 53, 32, 0.08);
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo {
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: var(--brown-dark);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      list-style: none;
+    }
+    .nav-links a {
+      display: block;
+      padding: 8px 16px;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-links a:hover { background: var(--cream); }
+    .nav-cta {
+      background: var(--accent) !important;
+      color: var(--white) !important;
+    }
+    .nav-cta:hover { opacity: 0.88; }
+
+    /* ── ヒーロー ── */
+    .hero {
+      background: linear-gradient(135deg, #4a3520 0%, #7a5c3a 60%, #c4955a 100%);
+      color: var(--white);
+      padding: 100px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      border-radius: 40px;
+      padding: 6px 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      opacity: 0.85;
+      margin-bottom: 12px;
+    }
+    .hero-desc {
+      font-size: 0.95rem;
+      opacity: 0.7;
+      margin-bottom: 48px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--white);
+      color: var(--brown-dark);
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--white);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 16px 36px;
+      border-radius: 50px;
+      border: 2px solid rgba(255,255,255,0.6);
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+
+    .hero-trust {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      opacity: 0.85;
+    }
+    .trust-icon { font-size: 1.2rem; }
+
+    /* ── セクション共通 ── */
+    section { padding: 80px 24px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 900;
+      color: var(--brown-dark);
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 48px;
+      max-width: 520px;
+    }
+
+    /* ── 犬種から選ぶ ── */
+    #breeds { background: var(--white); }
+    .breed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+    }
+    .breed-card {
+      background: var(--cream);
+      border-radius: var(--radius);
+      padding: 24px 16px 20px;
+      text-align: center;
+      text-decoration: none;
+      color: var(--text);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 2px solid transparent;
+    }
+    .breed-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+      border-color: var(--accent);
+    }
+    .breed-emoji { font-size: 2.4rem; margin-bottom: 10px; }
+    .breed-name { font-weight: 700; font-size: 0.9rem; line-height: 1.3; }
+    .breed-count { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+
+    /* ── 商品ラインナップ ── */
+    #lineup { background: var(--cream); }
+    .lineup-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      padding: 10px 24px;
+      border-radius: 40px;
+      border: 2px solid var(--brown-light);
+      background: transparent;
+      color: var(--brown);
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--brown);
+      color: var(--white);
+      border-color: var(--brown);
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .product-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      box-shadow: 0 2px 12px rgba(74,53,32,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+    .product-img-wrap {
+      aspect-ratio: 1;
+      overflow: hidden;
+      background: var(--cream);
+    }
+    .product-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+    .product-card:hover .product-img-wrap img { transform: scale(1.06); }
+    .product-info { padding: 16px; flex: 1; }
+    .product-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      background: #fff3e6;
+      color: var(--accent);
+      border-radius: 4px;
+      padding: 2px 8px;
+      margin-bottom: 8px;
+    }
+    .product-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 6px; }
+    .product-price { font-size: 1.1rem; font-weight: 800; color: var(--accent); }
+
+    /* ── 購入ステップ ── */
+    #flow { background: var(--brown-dark); color: var(--white); }
+    #flow h2 { color: var(--white); }
+    #flow .section-desc { color: rgba(255,255,255,0.7); }
+    .flow-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 32px;
+      position: relative;
+    }
+    .flow-step {
+      text-align: center;
+      position: relative;
+    }
+    .step-num {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--white);
+      font-size: 1.3rem;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+    }
+    .step-title { font-weight: 800; font-size: 1rem; margin-bottom: 8px; }
+    .step-desc { font-size: 0.85rem; opacity: 0.75; line-height: 1.5; }
+
+    /* ── こだわりポイント ── */
+    #features { background: var(--white); }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+    }
+    .feature-card {
+      padding: 32px;
+      border-radius: var(--radius);
+      background: var(--cream);
+      border-left: 4px solid var(--accent);
+    }
+    .feature-icon { font-size: 2.4rem; margin-bottom: 16px; }
+    .feature-title { font-weight: 800; font-size: 1.05rem; margin-bottom: 10px; color: var(--brown-dark); }
+    .feature-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ── CTA バナー ── */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--accent), var(--brown));
+      color: var(--white);
+      text-align: center;
+      padding: 72px 24px;
+    }
+    .cta-banner h2 { color: var(--white); margin-bottom: 12px; }
+    .cta-banner p { opacity: 0.85; margin-bottom: 36px; font-size: 1rem; }
+    .btn-white {
+      display: inline-block;
+      background: var(--white);
+      color: var(--brown-dark);
+      font-weight: 800;
+      font-size: 1.05rem;
+      padding: 18px 48px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .btn-white:hover { transform: translateY(-2px); }
+
+    /* ── フッター ── */
+    footer {
+      background: var(--brown-dark);
+      color: rgba(255,255,255,0.6);
+      padding: 40px 24px;
+      text-align: center;
+    }
+    footer .footer-logo {
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    footer .footer-links a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+    footer .footer-links a:hover { color: var(--white); }
+    footer .footer-copy { font-size: 0.78rem; }
+
+    /* ── レスポンシブ ── */
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .hero { padding: 72px 20px 60px; }
+      section { padding: 60px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ナビゲーション -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="https://benobibro.base.shop/" target="_blank">BENOBI bros.</a>
+    <ul class="nav-links">
+      <li><a href="#breeds">犬種から探す</a></li>
+      <li><a href="#lineup">商品ラインナップ</a></li>
+      <li><a href="#flow">購入の流れ</a></li>
+      <li><a href="#features">こだわり</a></li>
+      <li><a href="https://benobibro.base.shop/items/all" target="_blank" class="nav-cta">全商品を見る</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ヒーロー -->
+<section class="hero">
+  <div class="hero-badge">🐾 すべての大型犬好きへ</div>
+  <h1>でっかい愛を、<br/>ちっちゃく飾ろう</h1>
+  <p class="hero-sub">あの子そっくりの3Dフィギュアを、あなたの空間に。</p>
+  <p class="hero-desc">17犬種以上・サイズ別・キーホルダーなど多彩なラインナップ。<br/>ベンとオビが見守る工房から、丁寧にお届けします。</p>
+  <div class="hero-actions">
+    <a href="#breeds" class="btn-primary">🐶 犬種から選ぶ</a>
+    <a href="https://benobibro.base.shop/items/all" target="_blank" class="btn-secondary">全商品を見る →</a>
+  </div>
+  <div class="hero-trust">
+    <div class="trust-item"><span class="trust-icon">🚚</span> ¥6,000以上で送料無料</div>
+    <div class="trust-item"><span class="trust-icon">🖨️</span> 3Dプリント製・高精細</div>
+    <div class="trust-item"><span class="trust-icon">📦</span> 約10営業日で発送</div>
+  </div>
+</section>
+
+<!-- 犬種から選ぶ -->
+<section id="breeds">
+  <div class="container">
+    <span class="section-label">SHOP BY BREED</span>
+    <h2>あなたの愛犬の犬種は？</h2>
+    <p class="section-desc">お気に入りの犬種をクリックして、そのコのフィギュアを探してみてください。</p>
+    <div class="breed-grid">
+      <a class="breed-card" href="https://benobibro.base.shop/categories/7108658" target="_blank">
+        <div class="breed-emoji">🐕</div>
+        <div class="breed-name">バーニーズ<br/>マウンテンドッグ</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/categories/7108660" target="_blank">
+        <div class="breed-emoji">🦴</div>
+        <div class="breed-name">ゴールデン<br/>レトリバー</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank">
+        <div class="breed-emoji">🐶</div>
+        <div class="breed-name">ラブラドール<br/>レトリバー</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank">
+        <div class="breed-emoji">🐺</div>
+        <div class="breed-name">シベリアン<br/>ハスキー</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank">
+        <div class="breed-emoji">🦮</div>
+        <div class="breed-name">ジャーマン<br/>シェパード</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank">
+        <div class="breed-emoji">🐩</div>
+        <div class="breed-name">スタンダード<br/>プードル</div>
+        <div class="breed-count">カテゴリを見る →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank">
+        <div class="breed-emoji">🐕‍🦺</div>
+        <div class="breed-name">その他の<br/>大型犬</div>
+        <div class="breed-count">全17犬種 →</div>
+      </a>
+      <a class="breed-card" href="https://benobibro.base.shop/items/all" target="_blank" style="border: 2px dashed var(--brown-light); background: transparent;">
+        <div class="breed-emoji">🔍</div>
+        <div class="breed-name">全犬種を<br/>一覧で見る</div>
+        <div class="breed-count">ALL BREEDS →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 商品ラインナップ -->
+<section id="lineup">
+  <div class="container">
+    <span class="section-label">PRODUCT LINEUP</span>
+    <h2>商品ラインナップ</h2>
+    <p class="section-desc">飾る・持ち歩く・贈る。シーンに合わせてお選びください。</p>
+
+    <div class="lineup-tabs">
+      <button class="tab-btn active">🏠 飾る（フィギュア）</button>
+      <button class="tab-btn">🔑 持ち歩く（キーホルダー）</button>
+      <button class="tab-btn">⛩️ 神社セット</button>
+      <button class="tab-btn">☂️ アンブレラマーカー</button>
+    </div>
+
+    <div class="product-grid">
+      <!-- バーニーズSサイズ -->
+      <a class="product-card" href="https://benobibro.base.shop/items/113984114" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/e71ae3f90669234f2cff2bda0f515f01b.jpg"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=バーニーズ+S'"
+               alt="バーニーズSサイズフィギュア" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Sサイズ</span>
+          <div class="product-name">バーニーズマウンテンドッグ フィギュア</div>
+          <div class="product-price">¥700</div>
+        </div>
+      </a>
+      <!-- ゴールデンSサイズ -->
+      <a class="product-card" href="https://benobibro.base.shop/items/113984442" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/7818cb63b20ce9381629ced47d2bae50.jpg"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=ゴールデン+S'"
+               alt="ゴールデンレトリバーSサイズ" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Sサイズ</span>
+          <div class="product-name">ゴールデンレトリバー フィギュア</div>
+          <div class="product-price">¥700</div>
+        </div>
+      </a>
+      <!-- ラブSサイズ -->
+      <a class="product-card" href="https://benobibro.base.shop/items/120794927" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/a7223c0bf18a49b103a963b71c3801fe.jpg"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=ラブラドール+S'"
+               alt="ラブラドールSサイズ" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Sサイズ</span>
+          <div class="product-name">ラブラドールレトリバー フィギュア</div>
+          <div class="product-price">¥700</div>
+        </div>
+      </a>
+      <!-- 神社セット -->
+      <a class="product-card" href="https://benobibro.base.shop/items/140507477" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/8c1ac3adeece0110dcdf88fb70eccca5.jpg"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=神社セット'"
+               alt="BENOBI大犬守神社セット" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">人気 No.1</span>
+          <div class="product-name">BENOBI 大犬守 神社セット</div>
+          <div class="product-price">¥7,500</div>
+        </div>
+      </a>
+      <!-- 狛バニ -->
+      <a class="product-card" href="https://benobibro.base.shop/items/113984607" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/bd9daf249aa29fe70c190b6b81bd3b9d.jpg"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=狛バニ'"
+               alt="狛バニ石目調" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">⛩️ 狛犬シリーズ</span>
+          <div class="product-name">狛バニ（石目調）＋台座</div>
+          <div class="product-price">¥2,200</div>
+        </div>
+      </a>
+      <!-- アンブレラマーカー -->
+      <a class="product-card" href="https://benobibro.base.shop/items/132134435" target="_blank">
+        <div class="product-img-wrap">
+          <img src="https://baseec-img-mng.akamaized.net/images/item/origin/58dad4fb0954eee73668b62d16f5e868.png"
+               onerror="this.src='https://placehold.co/400x400/faf6f0/7a5c3a?text=アンブレラ'"
+               alt="アンブレラマーカー" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <span class="product-tag">☂️ 傘マーカー</span>
+          <div class="product-name">各犬種 アンブレラマーカー</div>
+          <div class="product-price">¥900</div>
+        </div>
+      </a>
+    </div>
+
+    <div style="text-align:center; margin-top: 48px;">
+      <a href="https://benobibro.base.shop/items/all" target="_blank" class="btn-primary" style="background: var(--brown-dark); color: var(--white);">
+        すべての商品を見る →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 購入の流れ -->
+<section id="flow">
+  <div class="container">
+    <span class="section-label" style="color: var(--brown-light);">HOW TO ORDER</span>
+    <h2>購入の流れ</h2>
+    <p class="section-desc">はじめての方も安心。かんたんステップでご注文できます。</p>
+    <div class="flow-steps">
+      <div class="flow-step">
+        <div class="step-num">1</div>
+        <div class="step-title">犬種・商品を選ぶ</div>
+        <div class="step-desc">17犬種以上のラインナップから、お気に入りの犬種とサイズを選択。</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">2</div>
+        <div class="step-title">カートに入れる</div>
+        <div class="step-desc">¥6,000以上で送料無料。複数購入もお得にまとめてどうぞ。</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">3</div>
+        <div class="step-title">注文確定</div>
+        <div class="step-desc">BASE の安全な決済システムでお支払い。クレジットカード・コンビニ払い対応。</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">4</div>
+        <div class="step-title">約10営業日で発送</div>
+        <div class="step-desc">ベンとオビが見守る工房で丁寧に3Dプリント・梱包してお届けします。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- こだわりポイント -->
+<section id="features">
+  <div class="container">
+    <span class="section-label">OUR PROMISE</span>
+    <h2>BENOBI bros. のこだわり</h2>
+    <p class="section-desc">大型犬オーナーが作る、大型犬オーナーのためのフィギュアブランド。</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🖨️</div>
+        <div class="feature-title">高精細3Dプリント製造</div>
+        <div class="feature-desc">最新の3Dプリント技術で犬のフォルムを忠実に再現。細部まで丁寧に仕上げています。</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🐾</div>
+        <div class="feature-title">監督犬ベン＆オビが保証</div>
+        <div class="feature-desc">制作・梱包はすべてベンとオビが監督。本物の犬オーナーによる品質チェック済みです。</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">17犬種以上のラインナップ</div>
+        <div class="feature-desc">バーニーズ、ゴールデン、ハスキーなど人気大型犬を幅広くカバー。犬種は今後も拡大予定。</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎁</div>
+        <div class="feature-title">大切な人へのプレゼントに</div>
+        <div class="feature-desc">愛犬の犬種と同じフィギュアは、犬友へのプレゼントとしても大好評。¥700〜贈れます。</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <div class="feature-title">¥6,000以上で送料無料</div>
+        <div class="feature-desc">まとめ買いでさらにお得。複数の犬種・サイズをセットで揃えるのもおすすめです。</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌍</div>
+        <div class="feature-title">12言語・多通貨対応</div>
+        <div class="feature-desc">海外への発送・お支払いにも対応。大型犬愛は国境を超えます。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTAバナー -->
+<div class="cta-banner">
+  <div class="container">
+    <h2>あなたの愛犬のフィギュア、<br/>見つけてみませんか？</h2>
+    <p>¥700から始められる、特別なインテリアアイテム。</p>
+    <a href="https://benobibro.base.shop/items/all" target="_blank" class="btn-white">今すぐショップへ →</a>
+  </div>
+</div>
+
+<!-- フッター -->
+<footer>
+  <div class="footer-logo">BENOBI bros.</div>
+  <div class="footer-links">
+    <a href="https://benobibro.base.shop/" target="_blank">HOME</a>
+    <a href="https://benobibro.base.shop/items/all" target="_blank">ALL ITEMS</a>
+    <a href="https://benobibro.base.shop/info/shopping_guide" target="_blank">SHOPPING GUIDE</a>
+    <a href="https://benobibro.base.shop/inquiry" target="_blank">CONTACT</a>
+  </div>
+  <div class="footer-copy">© BENOBI bros. — でっかい愛を、ちっちゃく飾ろう</div>
+</footer>
+
+<script>
+  // タブ切り替え（シンプルなUI確認用）
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // スムーススクロール
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
