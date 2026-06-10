@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: //admin.thebase.com
+          - img [ref=e9]
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - button "" [ref=e16] [cursor=pointer]:
+              - img [ref=e17]
+              - generic [ref=e19]: 
+            - text:  
+          - link "" [ref=e22] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/inquiries
+            - generic [ref=e23]: 
+      - separator [ref=e24]
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "ホーム ホーム" [ref=e33] [cursor=pointer]:
+            - /url: //admin.thebase.com/dashboard
+            - generic "ホーム" [ref=e35]: 
+            - generic [ref=e36]: ホーム
+        - listitem [ref=e37]:
+          - link "商品 商品" [ref=e39] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/items
+            - generic "商品" [ref=e41]: 
+            - generic [ref=e42]: 商品
+        - listitem [ref=e43]:
+          - link "注文 注文 3" [ref=e45] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/orders
+            - generic "注文" [ref=e47]: 
+            - generic [ref=e48]: 注文
+            - generic [ref=e50]: "3"
+        - listitem [ref=e51]:
+          - link "顧客 顧客" [ref=e53] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/customers
+            - generic "顧客" [ref=e55]: 
+            - generic [ref=e56]: 顧客
+        - listitem [ref=e57]:
+          - link "売上 売上" [ref=e59] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/balance
+            - generic "売上" [ref=e61]: 
+            - generic [ref=e62]: 売上
+        - listitem [ref=e63]:
+          - link "データ データ" [ref=e65] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/data
+            - generic "データ" [ref=e67]: 
+            - generic [ref=e68]: データ
+        - listitem [ref=e69]:
+          - link "デザイン デザイン" [ref=e71] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/design
+            - generic "デザイン" [ref=e73]: 
+            - generic [ref=e74]: デザイン
+        - listitem [ref=e75]:
+          - link "PAY ID アプリ PAY ID アプリ" [ref=e77] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/payid_app_data
+            - generic "PAY ID アプリ" [ref=e79]: 
+            - generic [ref=e80]: PAY ID アプリ
+        - listitem [ref=e81]:
+          - button " Apps" [ref=e85] [cursor=pointer]:
+            - generic [ref=e87]: 
+            - generic [ref=e88]: Apps
+      - separator [ref=e89]
+      - list [ref=e91]:
+        - listitem [ref=e92]:
+          - button " 設定" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]: 設定
+        - listitem [ref=e98]:
+          - link " ヘルプ" [ref=e100] [cursor=pointer]:
+            - /url: https://help.thebase.in/hc/ja
+            - generic [ref=e102]: 
+            - generic [ref=e103]: ヘルプ
+    - main [ref=e104]:
+      - generic [ref=e107]:
+        - generic [ref=e109]:
+          - link "戻る" [ref=e110] [cursor=pointer]:
+            - /url: /shop_admin/items/?origin_id=140502537
+            - generic "戻る" [ref=e111]:
+              - generic [ref=e112]: 
+          - heading "商品登録" [level=1] [ref=e113]
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - generic [ref=e123]:
+                    - term [ref=e125]:
+                      - generic [ref=e126]: 商品名
+                      - generic [ref=e127]: 必須
+                    - definition [ref=e129]:
+                      - textbox "商品名" [ref=e133]: コピー：狛シェパ(石目調)+台座
+                  - generic [ref=e135]:
+                    - term [ref=e137]: 商品画像
+                    - definition [ref=e139]:
+                      - generic [ref=e141]:
+                        - button "" [ref=e144] [cursor=pointer]:
+                          - generic [ref=e145]: 
+                        - button "" [ref=e148] [cursor=pointer]:
+                          - generic [ref=e149]: 
+                        - button "" [ref=e152] [cursor=pointer]:
+                          - generic [ref=e153]: 
+                        - button "" [ref=e156] [cursor=pointer]:
+                          - generic [ref=e157]: 
+                        - generic [ref=e158]:
+                          - button "Choose File" [ref=e159] [cursor=pointer]
+                          - generic [ref=e161]:
+                            - button "" [ref=e162] [cursor=pointer]:
+                              - generic [ref=e163]: 
+                            - button "画像を追加" [ref=e166]:
+                              - generic [ref=e167]: 
+                              - text: 画像を追加
+                  - generic [ref=e169]:
+                    - term [ref=e171]: 商品説明
+                    - definition [ref=e173]:
+                      - textbox "商品説明" [ref=e175]:
+                        - /placeholder: サイズ・カラー・素材などのくわしい情報や、この商品の背景や魅力を分かりやすい言葉で伝えましょう。
+                        - text: シェパード small BIG Dogs™ 狛シェパ ▷ “狛犬” とは？ 神社の入口で見かける、2体の石像ワンココンビ。 邪気を追い払い福を呼ぶ――そんな頼もしい守り神です。 狛犬が乗っている台座には、 一般的に、右に「奉」、左に「献」で奉献（ほうけん）と刻まれています。 これは「心をこめて神さまにプレゼントを渡す」という意味です。 ▷台座の文字に込めた意味 狛シェパが乗っている台座には、読みはそのまま「宝犬」と刻みました。 宝 … “かけがえのない宝物” 犬 … “いつもそばで守ってくれる” 2つ並べて「宝犬」＝“Treasure Dog” 愛犬への感謝もたっぷり込めました。 いつものまるっと優しい表情で優しく見守ってくれる狛シェパ。 あなたのお部屋に、ほっこり幸せな守り神を迎えてみませんか？ ⸻ 【商品ラインナップ】 ・右狛シェパ：フィギュア＋台座（宝） ・左狛シェパ：フィギュア＋台座（犬） ※左右は別売です。そろえて飾ると「宝犬」の二文字が完成します。 ※フィギュアと台座はマグネットで脱着できます。 ※左右で別犬種をお選び頂いてもかわいいです！ 【サイズ】 ・フィギュア：高さ50mm×横40mm×奥行50 mm ・台座：高さ65×横58×奥行48 mm ※寸法には若干の誤差がある場合がございます。 ⸻ 【ご購入前にご確認ください】 本商品は3Dプリンターで製作しているため、積層跡やわずかな個体差が見られる場合がございます。 製品仕様の詳細については、「当ショップ製品について」（ALL ITEMの最上部）をご確認ください。 【関連キーワード】 大型犬/ビッグドッグス/BIGDOGS/3Dプリント/ハンドメイド/犬雑貨/ドッググッズ/犬グッズ/インテリア/オブジェ/置物/ギフト/プレゼント/可愛い/かわいい/ミニチュア/ペットグッズ/犬モデル/犬モチーフ/おしゃれ/ナチュラル/デザイン雑貨/癒し/インスタ映え/ペット dog/dogs/pet/pets/figurine/handmade/gift/interior/decoration/toy/animal/3dprint
+                      - generic [ref=e176]:
+                        - generic [ref=e177]:
+                          - generic [ref=e178]: 
+                          - generic [ref=e179]: BASE AI アシスタント
+                        - generic [ref=e181]: AIが商品名に合わせて自動で商品説明文を提案します。商品説明の作成の参考に活用してください。かんたんに商品の特徴を入力すると、より精度の高い文章を提案できます。
+                        - generic [ref=e183]: 商品の特徴
+                        - generic [ref=e184]:
+                          - textbox "例：軽い素材でできたトートバッグ" [ref=e188]
+                          - button " 説明文を提案してもらう" [ref=e189] [cursor=pointer]:
+                            - generic [ref=e190]:
+                              - generic [ref=e191]: 
+                              - generic [ref=e192]: 説明文を提案してもらう
+                        - generic [ref=e193]:
+                          - generic [ref=e194]:
+                            - generic [ref=e195]: 
+                            - generic [ref=e196]:
+                              - link "BASE AI アシスタント利用規約" [ref=e197] [cursor=pointer]:
+                                - /url: /pages/base_ai_assistant_term
+                              - text: の内容に同意の上、BASE AI アシスタントをご利用ください。
+                          - generic [ref=e198]:
+                            - generic [ref=e199]: 
+                            - generic [ref=e200]: 実際の商品情報と合わない情報がふくまれる場合があるため、提案された説明文の内容をかならずご確認ください。
+                - generic [ref=e203]:
+                  - term [ref=e205]:
+                    - generic [ref=e206]:
+                      - text: 価格(税込)
+                      - generic [ref=e207]: 必須
+                  - definition [ref=e209]:
+                    - textbox "価格(税込) 必須" [ref=e213]:
+                      - /placeholder: "1000"
+                      - text: "2200"
+                - generic [ref=e216]:
+                  - term [ref=e218]: 税率
+                  - definition [ref=e220]:
+                    - button "10％（標準税率） " [ref=e224] [cursor=pointer]:
+                      - generic [ref=e225]: 10％（標準税率）
+                      - generic [ref=e226]: 
+                - generic [ref=e229]:
+                  - term [ref=e231]:
+                    - generic [ref=e232]:
+                      - text: 在庫と種類
+                      - generic [ref=e233]: 必須
+                  - definition [ref=e235]:
+                    - table [ref=e236]:
+                      - rowgroup [ref=e238]:
+                        - row "種類 在庫数" [ref=e239]:
+                          - columnheader "種類" [ref=e240]:
+                            - generic [ref=e241]: 種類
+                          - columnheader "在庫数" [ref=e242]:
+                            - generic [ref=e243]: 在庫数
+                          - columnheader [ref=e244]
+                      - rowgroup [ref=e245]:
+                        - row "右狛シェパ＋台座（宝） 7 " [ref=e246]:
+                          - cell "右狛シェパ＋台座（宝）" [ref=e247]:
+                            - textbox "サイズS" [ref=e251]: 右狛シェパ＋台座（宝）
+                          - cell "7" [ref=e252]:
+                            - textbox "0~100000" [ref=e256]: "7"
+                          - cell "" [ref=e257]:
+                            - generic [ref=e259] [cursor=pointer]: 
+                      - rowgroup [ref=e260]:
+                        - row "左狛シェパ＋台座（犬） 7 " [ref=e261]:
+                          - cell "左狛シェパ＋台座（犬）" [ref=e262]:
+                            - textbox "サイズS" [ref=e266]: 左狛シェパ＋台座（犬）
+                          - cell "7" [ref=e267]:
+                            - textbox "0~100000" [ref=e271]: "7"
+                          - cell "" [ref=e272]:
+                            - generic [ref=e274] [cursor=pointer]: 
+                    - button " 種類を追加する" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e276]:
+                        - generic [ref=e277]: 
+                        - generic [ref=e278]: 種類を追加する
+                - generic [ref=e282]:
+                  - term [ref=e284]: 表示と公開
+                  - definition [ref=e286]:
+                    - generic [ref=e288]: 表示順
+                    - generic [ref=e289]:
+                      - checkbox "商品一覧の先頭に追加する" [checked] [ref=e290]
+                      - paragraph [ref=e293] [cursor=pointer]: 商品一覧の先頭に追加する
+                    - generic [ref=e295]: 公開状態
+                    - list [ref=e296]:
+                      - listitem [ref=e297]:
+                        - radio "公開" [checked] [ref=e298]
+                        - generic [ref=e300] [cursor=pointer]: 公開
+                      - listitem [ref=e301]:
+                        - radio "非公開" [ref=e302]
+                        - generic [ref=e304] [cursor=pointer]: 非公開
+              - generic [ref=e307]:
+                - generic [ref=e310]:
+                  - term [ref=e312]:
+                    - img "itemLayout" [ref=e313]
+                    - heading "商品説明カスタム" [level=2] [ref=e314]:
+                      - generic [ref=e315]: 商品説明カスタム
+                  - generic [ref=e319]:
+                    - img "itemLayout" [ref=e320]
+                    - paragraph [ref=e323]: パーツが選択されていません
+                    - button " パーツを追加" [ref=e325] [cursor=pointer]:
+                      - generic [ref=e326]:
+                        - generic [ref=e327]: 
+                        - generic [ref=e328]: パーツを追加
+                - generic [ref=e331]:
+                  - term [ref=e333]:
+                    - img "itemCategory" [ref=e334]
+                    - heading "カテゴリ" [level=2] [ref=e335]:
+                      - generic [ref=e336]: カテゴリ
+                  - definition [ref=e338]:
+                    - generic [ref=e340]:
+                      - list [ref=e341]:
+                        - listitem [ref=e342]:
+                          - generic [ref=e343]:
+                            - checkbox "バーニーズマウンテンドッグ/Bernese Mtn" [ref=e344]
+                            - paragraph [ref=e347] [cursor=pointer]: バーニーズマウンテンドッグ/Bernese Mtn
+                        - listitem [ref=e348]:
+                          - generic [ref=e349]:
+                            - checkbox "ゴールデンレトリバー / Golden Retriever" [ref=e350]
+                            - paragraph [ref=e353] [cursor=pointer]: ゴールデンレトリバー / Golden Retriever
+                        - listitem [ref=e354]:
+                          - generic [ref=e355]:
+                            - checkbox "ラブラドールレトリバー/Labrador Retriever" [ref=e356]
+                            - paragraph [ref=e359] [cursor=pointer]: ラブラドールレトリバー/Labrador Retriever
+                        - listitem [ref=e360]:
+                          - generic [ref=e361]:
+                            - checkbox "グレートピレニーズ / Great Pyrenees" [ref=e362]
+                            - paragraph [ref=e365] [cursor=pointer]: グレートピレニーズ / Great Pyrenees
+                        - listitem [ref=e366]:
+                          - generic [ref=e367]:
+                            - checkbox "ニューファンドランド / Newfoundland" [ref=e368]
+                            - paragraph [ref=e371] [cursor=pointer]: ニューファンドランド / Newfoundland
+                        - listitem [ref=e372]:
+                          - generic [ref=e373]:
+                            - checkbox "ランドシーア / Landseer" [ref=e374]
+                            - paragraph [ref=e377] [cursor=pointer]: ランドシーア / Landseer
+                        - listitem [ref=e378]:
+                          - generic [ref=e379]:
+                            - checkbox "セントバーナード / Saint Bernard" [ref=e380]
+                            - paragraph [ref=e383] [cursor=pointer]: セントバーナード / Saint Bernard
+                        - listitem [ref=e384]:
+                          - generic [ref=e385]:
+                            - checkbox "レオンベルガー / Leonberger" [ref=e386]
+                            - paragraph [ref=e389] [cursor=pointer]: レオンベルガー / Leonberger
+                        - listitem [ref=e390]:
+                          - generic [ref=e391]:
+                            - checkbox "オールドイングリッシュシープドッグ/OES" [ref=e392]
+                            - paragraph [ref=e395] [cursor=pointer]: オールドイングリッシュシープドッグ/OES
+                        - listitem [ref=e396]:
+                          - generic [ref=e397]:
+                            - checkbox "シベリアンハスキー / Siberian Husky" [ref=e398]
+                            - paragraph [ref=e401] [cursor=pointer]: シベリアンハスキー / Siberian Husky
+                        - listitem [ref=e402]:
+                          - generic [ref=e403]:
+                            - checkbox "アラスカンマラミュート / Alaskan Malamute" [ref=e404]
+                            - paragraph [ref=e407] [cursor=pointer]: アラスカンマラミュート / Alaskan Malamute
+                        - listitem [ref=e408]:
+                          - generic [ref=e409]:
+                            - checkbox "フラットコーテッドレトリバー/Flat-Coated" [ref=e410]
+                            - paragraph [ref=e413] [cursor=pointer]: フラットコーテッドレトリバー/Flat-Coated
+                        - listitem [ref=e414]:
+                          - generic [ref=e415]:
+                            - checkbox "シェパード / Shepherd" [checked] [ref=e416]
+                            - paragraph [ref=e419] [cursor=pointer]: シェパード / Shepherd
+                          - list
+                        - listitem [ref=e420]:
+                          - generic [ref=e421]:
+                            - checkbox "スタンダードプードル / Standard Poodle" [ref=e422]
+                            - paragraph [ref=e425] [cursor=pointer]: スタンダードプードル / Standard Poodle
+                        - listitem [ref=e426]:
+                          - generic [ref=e427]:
+                            - checkbox "サモエド / Samoyed" [ref=e428]
+                            - paragraph [ref=e431] [cursor=pointer]: サモエド / Samoyed
+                        - listitem [ref=e432]:
+                          - generic [ref=e433]:
+                            - checkbox "ボルゾイ / Borzoi" [ref=e434]
+                            - paragraph [ref=e437] [cursor=pointer]: ボルゾイ / Borzoi
+                        - listitem [ref=e438]:
+                          - generic [ref=e439]:
+                            - checkbox "その他 / Others" [ref=e440]
+                            - paragraph [ref=e443] [cursor=pointer]: その他 / Others
+                      - button " 新しくカテゴリを追加" [ref=e444] [cursor=pointer]:
+                        - generic [ref=e445]:
+                          - generic [ref=e446]: 
+                          - generic [ref=e447]: 新しくカテゴリを追加
+                - generic [ref=e450]:
+                  - term [ref=e452]:
+                    - img "shippingFee" [ref=e453]
+                    - text: 送料詳細
+                  - definition [ref=e455]:
+                    - generic [ref=e456]: 配送方法が設定されていません
+                    - generic [ref=e459] [cursor=pointer]:
+                      - generic [ref=e460]: 
+                      - generic [ref=e462]: 商品の重量を設定する
+                - generic [ref=e465]:
+                  - term [ref=e467]:
+                    - img "itemLabel" [ref=e468]
+                    - heading "ラベル" [level=2] [ref=e469]:
+                      - generic [ref=e470]: ラベル
+                  - definition [ref=e472]:
+                    - generic [ref=e476]:
+                      - img "itemLabel" [ref=e477]
+                      - paragraph [ref=e480]: ラベルが設定されていません
+                      - button " ラベルを選択" [ref=e482] [cursor=pointer]:
+                        - generic [ref=e483]:
+                          - generic [ref=e484]: 
+                          - generic [ref=e485]: ラベルを選択
+            - generic [ref=e487]:
+              - button " プレビュー" [ref=e488] [cursor=pointer]:
+                - generic [ref=e489]:
+                  - generic [ref=e490]: 
+                  - generic [ref=e491]: プレビュー
+              - button "商品を登録" [ref=e492] [cursor=pointer]:
+                - generic [ref=e494]: 商品を登録
+          - paragraph [ref=e497]:
+            - generic [ref=e498]: 
+            - generic [ref=e500]:
+              - text: 機能や使いやすさの改善のために、
+              - link "フォーム" [ref=e501] [cursor=pointer]:
+                - /url: //admin.thebase.com/shop_admin/owners_feedback?referrer=https%3A%2F%2Fadmin.thebase.com%2Fshop_admin%2Fitems%2Fadd%3Forigin_id%3D140502537
+              - text: よりご意見をお寄せください
+  - text:                        
