@@ -1,2 +1,5 @@
 [    1242ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://admin.thebase.com/users/login:0
 [    1919ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://admin.thebase.com/users/login:0
+[   35508ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://admin.thebase.com/users/verify_two_factor_auth_via_mail?url=:0
+[   51915ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ https://www.googleadservices.com/pagead/conversion.js:27
+[   52330ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://admin.thebase.com/shop_admin/items/:0

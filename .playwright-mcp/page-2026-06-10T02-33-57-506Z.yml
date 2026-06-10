@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: //admin.thebase.com
+          - img [ref=e9]
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - button "" [ref=e16] [cursor=pointer]:
+              - img [ref=e17]
+              - generic [ref=e19]: 
+            - text:  
+          - link "" [ref=e22] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/inquiries
+            - generic [ref=e23]: 
+      - separator [ref=e24]
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "ホーム ホーム" [ref=e33] [cursor=pointer]:
+            - /url: //admin.thebase.com/dashboard
+            - generic "ホーム" [ref=e35]: 
+            - generic [ref=e36]: ホーム
+        - listitem [ref=e37]:
+          - link "商品 商品" [ref=e39] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/items
+            - generic "商品" [ref=e41]: 
+            - generic [ref=e42]: 商品
+        - listitem [ref=e43]:
+          - link "注文 注文 3" [ref=e45] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/orders
+            - generic "注文" [ref=e47]: 
+            - generic [ref=e48]: 注文
+            - generic [ref=e50]: "3"
+        - listitem [ref=e51]:
+          - link "顧客 顧客" [ref=e53] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/customers
+            - generic "顧客" [ref=e55]: 
+            - generic [ref=e56]: 顧客
+        - listitem [ref=e57]:
+          - link "売上 売上" [ref=e59] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/balance
+            - generic "売上" [ref=e61]: 
+            - generic [ref=e62]: 売上
+        - listitem [ref=e63]:
+          - link "データ データ" [ref=e65] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/data
+            - generic "データ" [ref=e67]: 
+            - generic [ref=e68]: データ
+        - listitem [ref=e69]:
+          - link "デザイン デザイン" [ref=e71] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/design
+            - generic "デザイン" [ref=e73]: 
+            - generic [ref=e74]: デザイン
+        - listitem [ref=e75]:
+          - link "PAY ID アプリ PAY ID アプリ" [ref=e77] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/payid_app_data
+            - generic "PAY ID アプリ" [ref=e79]: 
+            - generic [ref=e80]: PAY ID アプリ
+        - listitem [ref=e81]:
+          - button " Apps" [ref=e85] [cursor=pointer]:
+            - generic [ref=e87]: 
+            - generic [ref=e88]: Apps
+      - separator [ref=e89]
+      - list [ref=e91]:
+        - listitem [ref=e92]:
+          - button " 設定" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]: 設定
+        - listitem [ref=e98]:
+          - link " ヘルプ" [ref=e100] [cursor=pointer]:
+            - /url: https://help.thebase.in/hc/ja
+            - generic [ref=e102]: 
+            - generic [ref=e103]: ヘルプ
+    - main [ref=e104]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - heading "商品" [level=1] [ref=e111]
+          - button " 商品を登録" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: 
+              - generic [ref=e120]: 商品を登録
+        - generic [ref=e121]:
+          - generic [ref=e123]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - searchbox "商品名・説明から検索" [ref=e134]: 狛シェパ
+                      - button "" [ref=e1623] [cursor=pointer]:
+                        - generic [ref=e1624]: 
+                      - button "" [ref=e135] [cursor=pointer]:
+                        - generic [ref=e136]: 
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: 
+                      - button "さらに絞り込む" [ref=e139] [cursor=pointer]:
+                        - generic [ref=e141]: さらに絞り込む
+                  - text:  
+                - text:  
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - button " 並び替え" [disabled] [ref=e144]:
+                    - generic [ref=e145]:
+                      - generic [ref=e146]: 
+                      - generic [ref=e147]: 並び替え
+                  - button " 一括操作" [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: 
+                      - generic [ref=e152]: 一括操作
+                  - generic [ref=e1625]: "検索結果: 1件"
+                - button "ショップ表示順 " [ref=e155] [cursor=pointer]:
+                  - generic [ref=e156]: ショップ表示順
+                  - generic [ref=e157]: 
+            - table [ref=e161]:
+              - rowgroup [ref=e162]:
+                - cell "順番" [ref=e163]
+                - cell "商品名" [ref=e164]
+                - cell "価格" [ref=e165]
+                - cell "在庫" [ref=e166]
+                - cell "公開状態" [ref=e167]
+                - cell "シェア" [ref=e168]
+                - cell "複製" [ref=e169]
+                - cell "削除" [ref=e170]
+              - rowgroup [ref=e171]:
+                - row "1 狛シェパ(石目調)+台座 ￥2,200 14 公開 非公開   " [ref=e1626]:
+                  - rowheader "1" [ref=e1627]
+                  - cell "狛シェパ(石目調)+台座" [ref=e1628]:
+                    - link "狛シェパ(石目調)+台座" [ref=e1629] [cursor=pointer]:
+                      - /url: /shop_admin/items/edit/140502537
+                      - figure [ref=e1630]:
+                        - img "狛シェパ(石目調)+台座" [ref=e1631]
+                      - generic [ref=e1632]:
+                        - list
+                        - generic [ref=e1633]: 狛シェパ(石目調)+台座
+                  - cell "￥2,200" [ref=e1634]:
+                    - generic [ref=e1635]: ￥2,200
+                  - cell "14" [ref=e1636]
+                  - cell "公開 非公開" [ref=e1637]:
+                    - generic [ref=e1638]:
+                      - checkbox "公開 非公開" [checked] [ref=e1639]
+                      - list [ref=e1641] [cursor=pointer]:
+                        - listitem [ref=e1642]:
+                          - generic [ref=e1643]: 公開
+                        - listitem [ref=e1644]:
+                          - generic: 非公開
+                  - cell "" [ref=e1645]:
+                    - button "" [ref=e1646] [cursor=pointer]:
+                      - generic [ref=e1647]: 
+                  - cell "" [ref=e1648]:
+                    - button "" [ref=e1649] [cursor=pointer]:
+                      - generic [ref=e1650]: 
+                  - cell "" [ref=e1651]:
+                    - button "" [ref=e1652] [cursor=pointer]:
+                      - generic [ref=e1653]: 
+          - paragraph [ref=e1618]:
+            - generic [ref=e1619]: 
+            - generic [ref=e1621]:
+              - text: 機能や使いやすさの改善のために、
+              - link "フォーム" [ref=e1622] [cursor=pointer]:
+                - /url: //admin.thebase.com/shop_admin/owners_feedback?referrer=https%3A%2F%2Fadmin.thebase.com%2Fshop_admin%2Fitems%2F
+              - text: よりご意見をお寄せください
+  - text:                        
