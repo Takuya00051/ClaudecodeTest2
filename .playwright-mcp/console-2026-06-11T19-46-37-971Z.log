@@ -1,0 +1,2 @@
+[    1448ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://admin.thebase.com/users/login?url=https%3A%2F%2Fdevelopers.thebase.com%2Fapps%2Fnew:0
+[    2124ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://admin.thebase.com/users/login?url=https%3A%2F%2Fdevelopers.thebase.com%2Fapps%2Fnew:0
