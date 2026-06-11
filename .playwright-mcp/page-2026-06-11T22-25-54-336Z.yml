@@ -1,0 +1,209 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - heading "ショップ管理ツールのメニュー" [level=1] [ref=e2]
+        - generic [ref=e4]:
+          - generic [ref=e6]:
+            - generic [ref=e7]:
+              - heading "ショップ管理ツール" [level=2] [ref=e8]
+              - button "ショップ管理ツールを最小化" [ref=e9] [cursor=pointer]:
+                - img [ref=e11]
+            - paragraph
+            - generic [ref=e13]: あなたのショップはただいま休暇中です。
+          - generic [ref=e14]:
+            - navigation "ショップツール" [ref=e15]:
+              - list [ref=e16]:
+                - listitem [ref=e17]:
+                  - link "検索" [ref=e18] [cursor=pointer]:
+                    - /url: "?ref=seller-platform-mcnav#"
+                    - generic [ref=e20]:
+                      - img [ref=e23]
+                      - paragraph [ref=e25]: 検索
+                - listitem [ref=e26]:
+                  - link "ダッシュボード" [ref=e27] [cursor=pointer]:
+                    - /url: /your/shops/me/dashboard?ref=seller-platform-mcnav
+                    - generic [ref=e29]:
+                      - img [ref=e32]
+                      - paragraph [ref=e34]: ダッシュボード
+                - listitem [ref=e35]:
+                  - link "商品" [ref=e36] [cursor=pointer]:
+                    - /url: /your/shops/me/tools/listings?ref=seller-platform-mcnav
+                    - generic [ref=e38]:
+                      - img [ref=e41]
+                      - paragraph [ref=e43]: 商品
+                - listitem [ref=e44]:
+                  - link "メッセージ" [ref=e45] [cursor=pointer]:
+                    - /url: /messages?ref=seller-platform-mcnav
+                    - generic [ref=e47]:
+                      - img [ref=e50]
+                      - paragraph [ref=e52]: メッセージ
+                - listitem [ref=e53]:
+                  - link "注文数" [ref=e54] [cursor=pointer]:
+                    - /url: /your/orders/sold?ref=seller-platform-mcnav
+                    - generic [ref=e56]:
+                      - img [ref=e59]
+                      - paragraph [ref=e61]: 注文数
+                - listitem [ref=e62]:
+                  - link "Etsy 検索ビジビリティ" [ref=e63] [cursor=pointer]:
+                    - /url: /your/shops/me/search-visibility?ref=seller-platform-mcnav
+                    - generic [ref=e65]:
+                      - img [ref=e68]
+                      - paragraph [ref=e71]: Etsy 検索ビジビリティ
+                - listitem [ref=e72]:
+                  - button "統計 新着 サブナビゲーション通知合計件数" [ref=e74] [cursor=pointer]:
+                    - generic [ref=e77]:
+                      - generic [ref=e78]:
+                        - img [ref=e81]
+                        - paragraph [ref=e83]: 統計
+                      - generic [ref=e84]:
+                        - generic [ref=e85]: 新着
+                        - generic [ref=e86]: サブナビゲーション通知合計件数
+                - listitem [ref=e88]:
+                  - link "カスタマーサービス統計 カスタマーサービス通知合計件数" [ref=e89] [cursor=pointer]:
+                    - /url: /your/shops/me/customer-service-stats?ref=seller-platform-mcnav
+                    - generic [ref=e90]:
+                      - generic [ref=e91]:
+                        - img [ref=e94]
+                        - paragraph [ref=e96]: カスタマーサービス統計
+                      - generic [ref=e100]: カスタマーサービス通知合計件数
+                - listitem [ref=e101]:
+                  - link "ポリシー違反" [ref=e102] [cursor=pointer]:
+                    - /url: /your/shops/me/policy-violations?ref=seller-platform-mcnav
+                    - generic [ref=e104]:
+                      - img [ref=e107]
+                      - paragraph [ref=e109]: ポリシー違反
+                - listitem [ref=e110]:
+                  - button "マーケティング" [ref=e112] [cursor=pointer]:
+                    - generic [ref=e116]:
+                      - img [ref=e119]
+                      - paragraph [ref=e122]: マーケティング
+                - listitem [ref=e124]:
+                  - button "ファイナンス" [ref=e126] [cursor=pointer]:
+                    - generic [ref=e130]:
+                      - img [ref=e133]
+                      - paragraph [ref=e135]: ファイナンス
+                - listitem [ref=e137]:
+                  - button "ヘルプ" [ref=e139] [cursor=pointer]:
+                    - generic [ref=e143]:
+                      - img [ref=e146]
+                      - paragraph [ref=e149]: ヘルプ
+                - listitem [ref=e151]:
+                  - generic [ref=e152]:
+                    - button "設定 1 設定サブナビゲーション通知合計件数" [expanded] [ref=e153] [cursor=pointer]:
+                      - generic [ref=e156]:
+                        - generic [ref=e157]:
+                          - img [ref=e160]
+                          - paragraph [ref=e162]: 設定
+                        - generic [ref=e163]:
+                          - generic [ref=e166]: "1"
+                          - generic [ref=e167]: 設定サブナビゲーション通知合計件数
+                    - list [ref=e170]:
+                      - listitem [ref=e171]:
+                        - link "あなたのショップ 新着" [ref=e172] [cursor=pointer]:
+                          - /url: /your/shops/me/settings/your-shop/shop-basics?ref=seller-platform-mcnav
+                          - generic [ref=e173]:
+                            - paragraph [ref=e174]: あなたのショップ
+                            - generic [ref=e176]:
+                              - generic: 新着
+                        - generic:
+                          - generic:
+                            - generic: わかりました
+                      - listitem [ref=e178]:
+                        - link "ショップ情報＆デザイン" [ref=e179] [cursor=pointer]:
+                          - /url: /your/shops/me?ref=seller-platform-mcnav
+                          - paragraph [ref=e181]: ショップ情報＆デザイン
+                      - listitem [ref=e182]:
+                        - link "オプション" [ref=e183] [cursor=pointer]:
+                          - /url: /your/shops/me/options?ref=seller-platform-mcnav
+                          - paragraph [ref=e185]: オプション
+                      - listitem [ref=e186]:
+                        - link "送料設定" [ref=e187] [cursor=pointer]:
+                          - /url: /your/shops/me/tools/shipping-profiles?ref=seller-platform-mcnav
+                          - paragraph [ref=e189]: 送料設定
+                      - listitem [ref=e190]:
+                        - link "ポリシー設定" [ref=e191] [cursor=pointer]:
+                          - /url: /your/shops/me/shop-policies?ref=seller-platform-mcnav
+                          - paragraph [ref=e193]: ポリシー設定
+                      - listitem [ref=e194]:
+                        - link "一緒に働くパートナー" [ref=e195] [cursor=pointer]:
+                          - /url: /your/shops/me/partners?ref=seller-platform-mcnav
+                          - paragraph [ref=e197]: 一緒に働くパートナー
+                      - listitem [ref=e198]:
+                        - link "外部サイト広告" [ref=e199] [cursor=pointer]:
+                          - /url: /your/shops/me/settings/offsite-ads?ref=seller-platform-mcnav
+                          - paragraph [ref=e201]: 外部サイト広告
+                      - listitem [ref=e202]:
+                        - link "言語＆翻訳" [ref=e203] [cursor=pointer]:
+                          - /url: /your/shops/me/languages-translations?ref=seller-platform-mcnav
+                          - paragraph [ref=e205]: 言語＆翻訳
+                      - listitem [ref=e206]:
+                        - link "あなたの定期購入登録" [ref=e207] [cursor=pointer]:
+                          - /url: /your/shops/me/your-subscription?ref=seller-platform-mcnav
+                          - paragraph [ref=e209]: あなたの定期購入登録
+                      - listitem [ref=e210]:
+                        - link "Facebook ショップ" [ref=e211] [cursor=pointer]:
+                          - /url: /your/shops/me/facebook-shops?ref=seller-platform-mcnav
+                          - paragraph [ref=e213]: Facebook ショップ
+            - generic [ref=e214]:
+              - heading "販売チャネル" [level=3] [ref=e215]
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - generic [ref=e218]:
+                    - link "Etsy BENOBIbros" [ref=e219] [cursor=pointer]:
+                      - /url: /shop/BENOBIbros?ref=seller-platform-mcnav
+                      - generic [ref=e220]:
+                        - img [ref=e223]
+                        - generic [ref=e225]:
+                          - paragraph [ref=e226]: Etsy
+                          - paragraph [ref=e227]: BENOBIbros
+                    - button "ショップを編集" [ref=e228] [cursor=pointer]:
+                      - img [ref=e230]
+                - listitem [ref=e232]:
+                  - link "オリジナルのサイトを作りたいですか？ Pattern についてさらに詳しく" [ref=e234] [cursor=pointer]:
+                    - /url: /your/shops/me/pattern/home?ref=seller-platform-mcnav
+                    - generic [ref=e237]:
+                      - paragraph [ref=e238]: オリジナルのサイトを作りたいですか？
+                      - paragraph [ref=e239]: Pattern についてさらに詳しく
+          - button "アカウント設定 Takuya Nameki" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]:
+              - img "アカウント設定" [ref=e245]
+              - paragraph [ref=e246]: Takuya Nameki
+            - img [ref=e248]
+  - main [ref=e250]:
+    - generic [ref=e252]:
+      - generic [ref=e257]:
+        - img [ref=e261]
+        - generic [ref=e263]:
+          - paragraph [ref=e264]: ショップを一時停止しました
+          - paragraph [ref=e265]: 既存の注文の管理またはセラー／事業者情報認証の時間を確保できるよう、ショップが一時的におやすみモードに設定されました。現在新しい注文を受けることはできませんが、商品情報を編集したり、新しいものの下書きを作成をすることはできます。
+        - link "さらに詳しく" [ref=e267] [cursor=pointer]:
+          - /url: https://help.etsy.com/hc/articles/115015662947-How-to-Turn-On-Vacation-Mode?segment=selling
+      - status
+    - alert [ref=e269]
+  - contentinfo [ref=e271]:
+    - generic [ref=e273]:
+      - link "設定を更新する 日本 日本語 ¥ (JPY)" [ref=e275] [cursor=pointer]:
+        - /url: https://www.etsy.com/jp/your/account/locale_preferences?from_page=https%3A%2F%2Fwww.etsy.com%2Fyour%2Fshops%2Fme%2Ftools%2Fshipping-profiles
+        - img [ref=e278]
+        - generic [ref=e286]: 日本 | 日本語 | ¥ (JPY)
+      - generic [ref=e287]:
+        - generic [ref=e288]: © 2026 Etsy, Inc.
+        - list [ref=e289]:
+          - listitem [ref=e290]:
+            - link "利用規約" [ref=e291] [cursor=pointer]:
+              - /url: /jp/legal/terms-of-use?ref=ftr
+          - listitem [ref=e292]:
+            - link "プライバシー" [ref=e293] [cursor=pointer]:
+              - /url: /jp/legal/privacy/?ref=ftr
+          - listitem [ref=e294]:
+            - link "インタレストベース広告" [ref=e295] [cursor=pointer]:
+              - /url: /jp/legal/policy/cookies-tracking-technologies/44797645975?ref=ftr#marketing-services
+          - listitem [ref=e296]:
+            - link "お近くのショップ" [ref=e297] [cursor=pointer]:
+              - /url: /jp/search/shops
+          - listitem [ref=e298]:
+            - button "地域" [ref=e299] [cursor=pointer]
+          - listitem [ref=e300]:
+            - link "ヘルプセンター" [ref=e301] [cursor=pointer]:
+              - /url: /jp/help?ref=ftr
