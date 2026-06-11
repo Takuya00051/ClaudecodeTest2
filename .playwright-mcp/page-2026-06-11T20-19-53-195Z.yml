@@ -1,0 +1,16 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "Etsy.com に戻る" [ref=e5] [cursor=pointer]:
+      - /url: /jp/
+      - img [ref=e7]
+      - generic [ref=e9]: Etsy.com に戻る
+    - generic [ref=e12]:
+      - heading "あらら！" [level=1] [ref=e13]
+      - heading "残念、お探しのページは見つかりませんでした。" [level=2] [ref=e14]
+      - generic [ref=e16]:
+        - textbox "何でも検索してみてください" [ref=e17]
+        - button "検索" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 検索
+          - img [ref=e21]
+      - link "Etsy.com に戻る" [ref=e23] [cursor=pointer]:
+        - /url: /jp/
