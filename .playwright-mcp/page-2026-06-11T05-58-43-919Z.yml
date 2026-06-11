@@ -1,0 +1,607 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading [level=1] [ref=e7]:
+          - img [ref=e8]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "ダッシュボード" [ref=e11] [cursor=pointer]:
+              - /url: https://developers.thebase.com/dashboard
+          - listitem [ref=e12]:
+            - link "テーマ" [ref=e13] [cursor=pointer]:
+              - /url: https://developers.thebase.com/themes
+          - listitem [ref=e14]:
+            - link "アプリケーション" [ref=e15] [cursor=pointer]:
+              - /url: https://developers.thebase.com/apps
+          - listitem [ref=e16]:
+            - link "ツール" [ref=e17] [cursor=pointer]:
+              - /url: https://developers.thebase.com/tools/upload_file
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "管理画面" [ref=e21] [cursor=pointer]:
+            - /url: https://admin.thebase.com
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - heading "お知らせ" [level=2] [ref=e25]
+      - table [ref=e26]:
+        - rowgroup [ref=e27]:
+          - row "2026/04/16 「Pay ID」ロゴ刷新のお知らせと、お支払い方法のタグ追加について 詳細" [ref=e28]:
+            - cell "2026/04/16" [ref=e29]:
+              - paragraph [ref=e30]: 2026/04/16
+            - cell "「Pay ID」ロゴ刷新のお知らせと、お支払い方法のタグ追加について" [ref=e31]
+            - cell "詳細" [ref=e32]:
+              - link "詳細" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+          - row "2026/04/09 PAY ID ロゴ刷新のお知らせと支払い方法タグ追加について 詳細" [ref=e34]:
+            - cell "2026/04/09" [ref=e35]:
+              - paragraph [ref=e36]: 2026/04/09
+            - cell "PAY ID ロゴ刷新のお知らせと支払い方法タグ追加について" [ref=e37]
+            - cell "詳細" [ref=e38]:
+              - link "詳細" [ref=e39] [cursor=pointer]:
+                - /url: "#"
+          - row "2025/12/23 【復旧済み】BASE APIの注文詳細（order/details）における、不具合のお知らせ 詳細" [ref=e40]:
+            - cell "2025/12/23" [ref=e41]:
+              - paragraph [ref=e42]: 2025/12/23
+            - cell "【復旧済み】BASE APIの注文詳細（order/details）における、不具合のお知らせ" [ref=e43]
+            - cell "詳細" [ref=e44]:
+              - link "詳細" [ref=e45] [cursor=pointer]:
+                - /url: "#"
+          - row "2025/04/23 Diners Clubが、BASEの取り扱いクレジットカードブランドに追加されました 詳細" [ref=e46]:
+            - cell "2025/04/23" [ref=e47]:
+              - paragraph [ref=e48]: 2025/04/23
+            - cell "Diners Clubが、BASEの取り扱いクレジットカードブランドに追加されました" [ref=e49]
+            - cell "詳細" [ref=e50]:
+              - link "詳細" [ref=e51] [cursor=pointer]:
+                - /url: "#"
+          - row "2025/02/12 「カートバッジ表示機能」リリースのお知らせ 詳細" [ref=e52]:
+            - cell "2025/02/12" [ref=e53]:
+              - paragraph [ref=e54]: 2025/02/12
+            - cell "「カートバッジ表示機能」リリースのお知らせ" [ref=e55]
+            - cell "詳細" [ref=e56]:
+              - link "詳細" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+          - row "2025/02/05 認証時のログインフォーム、アップデートのお知らせ 詳細" [ref=e58]:
+            - cell "2025/02/05" [ref=e59]:
+              - paragraph [ref=e60]: 2025/02/05
+            - cell "認証時のログインフォーム、アップデートのお知らせ" [ref=e61]
+            - cell "詳細" [ref=e62]:
+              - link "詳細" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/12/06 年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/20〜1/6】 詳細" [ref=e64]:
+            - cell "2024/12/06" [ref=e65]:
+              - paragraph [ref=e66]: 2024/12/06
+            - cell "年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/20〜1/6】" [ref=e67]
+            - cell "詳細" [ref=e68]:
+              - link "詳細" [ref=e69] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/09/27 BASE APIの一部変更内容について 詳細" [ref=e70]:
+            - cell "2024/09/27" [ref=e71]:
+              - paragraph [ref=e72]: 2024/09/27
+            - cell "BASE APIの一部変更内容について" [ref=e73]
+            - cell "詳細" [ref=e74]:
+              - link "詳細" [ref=e75] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/09/26 【復旧済み】ordersにおける不具合のお知らせ 詳細" [ref=e76]:
+            - cell "2024/09/26" [ref=e77]:
+              - paragraph [ref=e78]: 2024/09/26
+            - cell "【復旧済み】ordersにおける不具合のお知らせ" [ref=e79]
+            - cell "詳細" [ref=e80]:
+              - link "詳細" [ref=e81] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/09/26 BASE APIの一部変更内容について 詳細" [ref=e82]:
+            - cell "2024/09/26" [ref=e83]:
+              - paragraph [ref=e84]: 2024/09/26
+            - cell "BASE APIの一部変更内容について" [ref=e85]
+            - cell "詳細" [ref=e86]:
+              - link "詳細" [ref=e87] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/09/10 デザインオプションのグルーピング機能をリリースしました 詳細" [ref=e88]:
+            - cell "2024/09/10" [ref=e89]:
+              - paragraph [ref=e90]: 2024/09/10
+            - cell "デザインオプションのグルーピング機能をリリースしました" [ref=e91]
+            - cell "詳細" [ref=e92]:
+              - link "詳細" [ref=e93] [cursor=pointer]:
+                - /url: "#"
+          - row "2024/03/14 BASE API のレスポンス項目追加についてのお知らせ 詳細" [ref=e94]:
+            - cell "2024/03/14" [ref=e95]:
+              - paragraph [ref=e96]: 2024/03/14
+            - cell "BASE API のレスポンス項目追加についてのお知らせ" [ref=e97]
+            - cell "詳細" [ref=e98]:
+              - link "詳細" [ref=e99] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/12/08 年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/22〜1/8】 詳細" [ref=e100]:
+            - cell "2023/12/08" [ref=e101]:
+              - paragraph [ref=e102]: 2023/12/08
+            - cell "年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/22〜1/8】" [ref=e103]
+            - cell "詳細" [ref=e104]:
+              - link "詳細" [ref=e105] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/09/26 インボイス（適格請求書）制度への対応について 詳細" [ref=e106]:
+            - cell "2023/09/26" [ref=e107]:
+              - paragraph [ref=e108]: 2023/09/26
+            - cell "インボイス（適格請求書）制度への対応について" [ref=e109]
+            - cell "詳細" [ref=e110]:
+              - link "詳細" [ref=e111] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/08/22 BASE APIの一部変更内容について 詳細" [ref=e112]:
+            - cell "2023/08/22" [ref=e113]:
+              - paragraph [ref=e114]: 2023/08/22
+            - cell "BASE APIの一部変更内容について" [ref=e115]
+            - cell "詳細" [ref=e116]:
+              - link "詳細" [ref=e117] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/04/28 弊社からの送信メールアドレス、お問い合わせ先が変更になりました。 詳細" [ref=e118]:
+            - cell "2023/04/28" [ref=e119]:
+              - paragraph [ref=e120]: 2023/04/28
+            - cell "弊社からの送信メールアドレス、お問い合わせ先が変更になりました。" [ref=e121]
+            - cell "詳細" [ref=e122]:
+              - link "詳細" [ref=e123] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/03/31 「ショップコインApp」の提供を終了いたしました 詳細" [ref=e124]:
+            - cell "2023/03/31" [ref=e125]:
+              - paragraph [ref=e126]: 2023/03/31
+            - cell "「ショップコインApp」の提供を終了いたしました" [ref=e127]
+            - cell "詳細" [ref=e128]:
+              - link "詳細" [ref=e129] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/03/31 「 body 仕様」内、カートリンク・BASEリンク実装に関するドキュメントを更新しました。 詳細" [ref=e130]:
+            - cell "2023/03/31" [ref=e131]:
+              - paragraph [ref=e132]: 2023/03/31
+            - cell "「 body 仕様」内、カートリンク・BASEリンク実装に関するドキュメントを更新しました。" [ref=e133]
+            - cell "詳細" [ref=e134]:
+              - link "詳細" [ref=e135] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/default/body#%E3%82%AB%E3%83%BC%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF-base%E3%83%AA%E3%83%B3%E3%82%AF
+          - row "2023/03/30 【復旧済み】テーマエディタにおける不具合のお知らせ 詳細" [ref=e136]:
+            - cell "2023/03/30" [ref=e137]:
+              - paragraph [ref=e138]: 2023/03/30
+            - cell "【復旧済み】テーマエディタにおける不具合のお知らせ" [ref=e139]
+            - cell "詳細" [ref=e140]:
+              - link "詳細" [ref=e141] [cursor=pointer]:
+                - /url: "#"
+          - row "2023/03/23 BASE APIの一部変更内容について 詳細" [ref=e142]:
+            - cell "2023/03/23" [ref=e143]:
+              - paragraph [ref=e144]: 2023/03/23
+            - cell "BASE APIの一部変更内容について" [ref=e145]
+            - cell "詳細" [ref=e146]:
+              - link "詳細" [ref=e147] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/12/09 年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/23〜1/6】 詳細" [ref=e148]:
+            - cell "2022/12/09" [ref=e149]:
+              - paragraph [ref=e150]: 2022/12/09
+            - cell "年末年始のデザインテーマ審査、お問い合わせメールへの返信について【12/23〜1/6】" [ref=e151]
+            - cell "詳細" [ref=e152]:
+              - link "詳細" [ref=e153] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/06/29 画像送受信の機能追加に伴い、メッセージAppのページを修正しました。 詳細" [ref=e154]:
+            - cell "2022/06/29" [ref=e155]:
+              - paragraph [ref=e156]: 2022/06/29
+            - cell "画像送受信の機能追加に伴い、メッセージAppのページを修正しました。" [ref=e157]
+            - cell "詳細" [ref=e158]:
+              - link "詳細" [ref=e159] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/message_app
+          - row "2022/06/14 テーマエディタが新しくなりました 詳細" [ref=e160]:
+            - cell "2022/06/14" [ref=e161]:
+              - paragraph [ref=e162]: 2022/06/14
+            - cell "テーマエディタが新しくなりました" [ref=e163]
+            - cell "詳細" [ref=e164]:
+              - link "詳細" [ref=e165] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/05/20 【復旧済み】ショップページにおける不具合のお知らせ 詳細" [ref=e166]:
+            - cell "2022/05/20" [ref=e167]:
+              - paragraph [ref=e168]: 2022/05/20
+            - cell "【復旧済み】ショップページにおける不具合のお知らせ" [ref=e169]
+            - cell "詳細" [ref=e170]:
+              - link "詳細" [ref=e171] [cursor=pointer]:
+                - /url: "#"
+          - 'row "2022/03/28 {JQueryTag}タグ及び{BASEURL}タグ、{BASEDomain}タグを非推奨に変更しました。 詳細" [ref=e172]':
+            - cell "2022/03/28" [ref=e173]:
+              - paragraph [ref=e174]: 2022/03/28
+            - 'cell "{JQueryTag}タグ及び{BASEURL}タグ、{BASEDomain}タグを非推奨に変更しました。" [ref=e175]'
+            - cell "詳細" [ref=e176]:
+              - link "詳細" [ref=e177] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/update/
+          - 'row "2022/03/07 {PageContents}タグを追加しました。 詳細" [ref=e178]':
+            - cell "2022/03/07" [ref=e179]:
+              - paragraph [ref=e180]: 2022/03/07
+            - 'cell "{PageContents}タグを追加しました。" [ref=e181]'
+            - cell "詳細" [ref=e182]:
+              - link "詳細" [ref=e183] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/syntax/contents#%E5%90%84%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E3%82%BF%E3%82%B0
+          - row "2022/03/03 「商品オプション App」のドキュメントを更新しました。 詳細" [ref=e184]:
+            - cell "2022/03/03" [ref=e185]:
+              - paragraph [ref=e186]: 2022/03/03
+            - cell "「商品オプション App」のドキュメントを更新しました。" [ref=e187]
+            - cell "詳細" [ref=e188]:
+              - link "詳細" [ref=e189] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/item_option_app
+          - row "2022/02/21 「検索API」の新規受付停止のお知らせ 詳細" [ref=e190]:
+            - cell "2022/02/21" [ref=e191]:
+              - paragraph [ref=e192]: 2022/02/21
+            - cell "「検索API」の新規受付停止のお知らせ" [ref=e193]
+            - cell "詳細" [ref=e194]:
+              - link "詳細" [ref=e195] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/02/08 BASE API のレスポンス項目追加についてのお知らせ 詳細" [ref=e196]:
+            - cell "2022/02/08" [ref=e197]:
+              - paragraph [ref=e198]: 2022/02/08
+            - cell "BASE API のレスポンス項目追加についてのお知らせ" [ref=e199]
+            - cell "詳細" [ref=e200]:
+              - link "詳細" [ref=e201] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/01/31 「検索API」の新規受付停止のお知らせ 詳細" [ref=e202]:
+            - cell "2022/01/31" [ref=e203]:
+              - paragraph [ref=e204]: 2022/01/31
+            - cell "「検索API」の新規受付停止のお知らせ" [ref=e205]
+            - cell "詳細" [ref=e206]:
+              - link "詳細" [ref=e207] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/01/25 【復旧済み】BASE APIの障害にともなう発送処理ステータスについての不具合のお知らせ 詳細" [ref=e208]:
+            - cell "2022/01/25" [ref=e209]:
+              - paragraph [ref=e210]: 2022/01/25
+            - cell "【復旧済み】BASE APIの障害にともなう発送処理ステータスについての不具合のお知らせ" [ref=e211]
+            - cell "詳細" [ref=e212]:
+              - link "詳細" [ref=e213] [cursor=pointer]:
+                - /url: "#"
+          - row "2022/01/17 「メールマガジン App」のドキュメントを追加しました。 詳細" [ref=e214]:
+            - cell "2022/01/17" [ref=e215]:
+              - paragraph [ref=e216]: 2022/01/17
+            - cell "「メールマガジン App」のドキュメントを追加しました。" [ref=e217]
+            - cell "詳細" [ref=e218]:
+              - link "詳細" [ref=e219] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/mail_magazine_app
+          - row "2021/12/16 「お知らせバナー App」のドキュメントを追加しました。 詳細" [ref=e220]:
+            - cell "2021/12/16" [ref=e221]:
+              - paragraph [ref=e222]: 2021/12/16
+            - cell "「お知らせバナー App」のドキュメントを追加しました。" [ref=e223]
+            - cell "詳細" [ref=e224]:
+              - link "詳細" [ref=e225] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/information_banner_app
+          - row "2021/12/15 年末年始のBASE API審査、デザインテーマ審査、お問い合わせメールへの返信について 詳細" [ref=e226]:
+            - cell "2021/12/15" [ref=e227]:
+              - paragraph [ref=e228]: 2021/12/15
+            - cell "年末年始のBASE API審査、デザインテーマ審査、お問い合わせメールへの返信について" [ref=e229]
+            - cell "詳細" [ref=e230]:
+              - link "詳細" [ref=e231] [cursor=pointer]:
+                - /url: "#"
+          - row "2021/11/05 年齢制限Appのドキュメントに「再入荷自動通知Appをご利用の場合」を追記しました。 詳細" [ref=e232]:
+            - cell "2021/11/05" [ref=e233]:
+              - paragraph [ref=e234]: 2021/11/05
+            - cell "年齢制限Appのドキュメントに「再入荷自動通知Appをご利用の場合」を追記しました。" [ref=e235]
+            - cell "詳細" [ref=e236]:
+              - link "詳細" [ref=e237] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/age_verification_app#%E5%86%8D%E5%85%A5%E8%8D%B7%E8%87%AA%E5%8B%95%E9%80%9A%E7%9F%A5app%E3%82%92%E3%81%94%E5%88%A9%E7%94%A8%E3%81%AE%E5%A0%B4%E5%90%88
+          - row "2021/10/27 年齢制限Appの「酒類販売時の注意文言」に関する記述をわかりやすくしました。 詳細" [ref=e238]:
+            - cell "2021/10/27" [ref=e239]:
+              - paragraph [ref=e240]: 2021/10/27
+            - cell "年齢制限Appの「酒類販売時の注意文言」に関する記述をわかりやすくしました。" [ref=e241]
+            - cell "詳細" [ref=e242]:
+              - link "詳細" [ref=e243] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/age_verification_app#%E5%95%86%E5%93%81%E8%A9%B3%E7%B4%B0%E3%83%9A%E3%83%BC%E3%82%B8-%E9%85%92%E9%A1%9E%E8%B2%A9%E5%A3%B2%E6%99%82%E3%81%AE%E6%B3%A8%E6%84%8F%E6%96%87%E8%A8%80
+          - row "2021/10/20 テーマ申請チェックリストに「年齢制限App」を追記しました。 詳細" [ref=e244]:
+            - cell "2021/10/20" [ref=e245]:
+              - paragraph [ref=e246]: 2021/10/20
+            - cell "テーマ申請チェックリストに「年齢制限App」を追記しました。" [ref=e247]
+            - cell "詳細" [ref=e248]:
+              - link "詳細" [ref=e249] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2021/10/20 年齢制限Appのドキュメントを追加しました。 詳細" [ref=e250]:
+            - cell "2021/10/20" [ref=e251]:
+              - paragraph [ref=e252]: 2021/10/20
+            - cell "年齢制限Appのドキュメントを追加しました。" [ref=e253]
+            - cell "詳細" [ref=e254]:
+              - link "詳細" [ref=e255] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/age_verification_app
+          - row "2021/10/11 商品画像URL変更のご案内 詳細" [ref=e256]:
+            - cell "2021/10/11" [ref=e257]:
+              - paragraph [ref=e258]: 2021/10/11
+            - cell "商品画像URL変更のご案内" [ref=e259]
+            - cell "詳細" [ref=e260]:
+              - link "詳細" [ref=e261] [cursor=pointer]:
+                - /url: "#"
+          - row "2021/10/08 ショップコインApp、Blog Appの実装に関する内容を更新しました。 詳細" [ref=e262]:
+            - cell "2021/10/08" [ref=e263]:
+              - paragraph [ref=e264]: 2021/10/08
+            - cell "ショップコインApp、Blog Appの実装に関する内容を更新しました。" [ref=e265]
+            - cell "詳細" [ref=e266]:
+              - link "詳細" [ref=e267] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/#%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1
+          - row "2021/09/16 iOS15リリースに伴い、Safariでの動作確認をお願いいたします。 詳細" [ref=e268]:
+            - cell "2021/09/16" [ref=e269]:
+              - paragraph [ref=e270]: 2021/09/16
+            - cell "iOS15リリースに伴い、Safariでの動作確認をお願いいたします。" [ref=e271]
+            - cell "詳細" [ref=e272]:
+              - link "詳細" [ref=e273] [cursor=pointer]:
+                - /url: "#"
+          - row "2021/09/14 テーマ申請チェックリストに「商品オプションApp」を追記しました。 詳細" [ref=e274]:
+            - cell "2021/09/14" [ref=e275]:
+              - paragraph [ref=e276]: 2021/09/14
+            - cell "テーマ申請チェックリストに「商品オプションApp」を追記しました。" [ref=e277]
+            - cell "詳細" [ref=e278]:
+              - link "詳細" [ref=e279] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list#%E5%95%86%E5%93%81%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3app-docs-template-apps-item-option-app
+          - row "2021/08/20 再入荷自動通知Appのドキュメントを追加しました。 詳細" [ref=e280]:
+            - cell "2021/08/20" [ref=e281]:
+              - paragraph [ref=e282]: 2021/08/20
+            - cell "再入荷自動通知Appのドキュメントを追加しました。" [ref=e283]
+            - cell "詳細" [ref=e284]:
+              - link "詳細" [ref=e285] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/restock_mail_notification_app
+          - row "2021/07/09 テーマ申請チェックリストにレスポンシブデザイン対応画面幅例を追記しました。 詳細" [ref=e286]:
+            - cell "2021/07/09" [ref=e287]:
+              - paragraph [ref=e288]: 2021/07/09
+            - cell "テーマ申請チェックリストにレスポンシブデザイン対応画面幅例を追記しました。" [ref=e289]
+            - cell "詳細" [ref=e290]:
+              - link "詳細" [ref=e291] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list#%E5%85%A8%E4%BD%93
+          - row "2021/06/14 <head>タグ内にCSSを記述する場合のご注意を追記しました 詳細" [ref=e292]:
+            - cell "2021/06/14" [ref=e293]:
+              - paragraph [ref=e294]: 2021/06/14
+            - cell "<head>タグ内にCSSを記述する場合のご注意を追記しました" [ref=e295]
+            - cell "詳細" [ref=e296]:
+              - link "詳細" [ref=e297] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/default/head#lt-head-gt-%E3%82%BF%E3%82%B0%E5%86%85%E3%81%ABcss%E3%82%92%E8%A8%98%E8%BF%B0%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E3%81%94%E6%B3%A8%E6%84%8F
+          - row "2021/05/18 テーマ申請チェックリストに「ご注意ください」を追記しました。 詳細" [ref=e298]:
+            - cell "2021/05/18" [ref=e299]:
+              - paragraph [ref=e300]: 2021/05/18
+            - cell "テーマ申請チェックリストに「ご注意ください」を追記しました。" [ref=e301]
+            - cell "詳細" [ref=e302]:
+              - link "詳細" [ref=e303] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2021/04/09 ショップ非公開状態におけるコンテンツ表示の仕様を追加しました 詳細" [ref=e304]:
+            - cell "2021/04/09" [ref=e305]:
+              - paragraph [ref=e306]: 2021/04/09
+            - cell "ショップ非公開状態におけるコンテンツ表示の仕様を追加しました" [ref=e307]
+            - cell "詳細" [ref=e308]:
+              - link "詳細" [ref=e309] [cursor=pointer]:
+                - /url: "#"
+          - row "2021/01/13 デモ用ショップに関する注意事項を追加しました。 詳細" [ref=e310]:
+            - cell "2021/01/13" [ref=e311]:
+              - paragraph [ref=e312]: 2021/01/13
+            - cell "デモ用ショップに関する注意事項を追加しました。" [ref=e313]
+            - cell "詳細" [ref=e314]:
+              - link "詳細" [ref=e315] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/demo
+          - row "2020/12/18 プレビュー画面で、PCとスマートフォンのプレビュー切替ができるようになりました。 詳細" [ref=e316]:
+            - cell "2020/12/18" [ref=e317]:
+              - paragraph [ref=e318]: 2020/12/18
+            - cell "プレビュー画面で、PCとスマートフォンのプレビュー切替ができるようになりました。" [ref=e319]
+            - cell "詳細" [ref=e320]:
+              - link "詳細" [ref=e321] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/editor
+          - row "2020/11/13 Internet Explorerのサポート終了に伴いテーマ申請チェックリストを更新しました。 詳細" [ref=e322]:
+            - cell "2020/11/13" [ref=e323]:
+              - paragraph [ref=e324]: 2020/11/13
+            - cell "Internet Explorerのサポート終了に伴いテーマ申請チェックリストを更新しました。" [ref=e325]
+            - cell "詳細" [ref=e326]:
+              - link "詳細" [ref=e327] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2020/11/11 Internet Explorer 11 のサポートを終了いたします 詳細" [ref=e328]:
+            - cell "2020/11/11" [ref=e329]:
+              - paragraph [ref=e330]: 2020/11/11
+            - cell "Internet Explorer 11 のサポートを終了いたします" [ref=e331]
+            - cell "詳細" [ref=e332]:
+              - link "詳細" [ref=e333] [cursor=pointer]:
+                - /url: "#"
+          - row "2020/10/01 商品の画像サイズに1280pxが追加になりました。 詳細" [ref=e334]:
+            - cell "2020/10/01" [ref=e335]:
+              - paragraph [ref=e336]: 2020/10/01
+            - cell "商品の画像サイズに1280pxが追加になりました。" [ref=e337]
+            - cell "詳細" [ref=e338]:
+              - link "詳細" [ref=e339] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/syntax/item
+          - row "2020/09/29 BASEロゴ非表示Appのドキュメントを更新しました。 詳細" [ref=e340]:
+            - cell "2020/09/29" [ref=e341]:
+              - paragraph [ref=e342]: 2020/09/29
+            - cell "BASEロゴ非表示Appのドキュメントを更新しました。" [ref=e343]
+            - cell "詳細" [ref=e344]:
+              - link "詳細" [ref=e345] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/base_eraser_app
+          - row "2020/09/23 コミュニティ Appのドキュメントを更新しました。 詳細" [ref=e346]:
+            - cell "2020/09/23" [ref=e347]:
+              - paragraph [ref=e348]: 2020/09/23
+            - cell "コミュニティ Appのドキュメントを更新しました。" [ref=e349]
+            - cell "詳細" [ref=e350]:
+              - link "詳細" [ref=e351] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/community_app
+          - row "2020/09/10 コミュニティ Appのドキュメントを追加しました。 詳細" [ref=e352]:
+            - cell "2020/09/10" [ref=e353]:
+              - paragraph [ref=e354]: 2020/09/10
+            - cell "コミュニティ Appのドキュメントを追加しました。" [ref=e355]
+            - cell "詳細" [ref=e356]:
+              - link "詳細" [ref=e357] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/community_app
+          - row "2020/09/08 [BASE API]Itemのレスポンスに商品オプションを追加しました。 詳細" [ref=e358]:
+            - cell "2020/09/08" [ref=e359]:
+              - paragraph [ref=e360]: 2020/09/08
+            - cell "[BASE API]Itemのレスポンスに商品オプションを追加しました。" [ref=e361]
+            - cell "詳細" [ref=e362]:
+              - link "詳細" [ref=e363] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/api/
+          - row "2020/09/07 [BASE API]GET /1/items のリクエストパラメーターに公開ステータスを追加しました。 詳細" [ref=e364]:
+            - cell "2020/09/07" [ref=e365]:
+              - paragraph [ref=e366]: 2020/09/07
+            - cell "[BASE API]GET /1/items のリクエストパラメーターに公開ステータスを追加しました。" [ref=e367]
+            - cell "詳細" [ref=e368]:
+              - link "詳細" [ref=e369] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/api/items/
+          - row "2020/08/28 ナビゲーションに関する仕様を「<body>仕様」から独立させ、内容を充実させました。 詳細" [ref=e370]:
+            - cell "2020/08/28" [ref=e371]:
+              - paragraph [ref=e372]: 2020/08/28
+            - cell "ナビゲーションに関する仕様を「<body>仕様」から独立させ、内容を充実させました。" [ref=e373]
+            - cell "詳細" [ref=e374]:
+              - link "詳細" [ref=e375] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/default/navigation
+          - row "2020/08/11 [BASE API]Ordersのレスポンスに商品オプション Appを対応しました。 詳細" [ref=e376]:
+            - cell "2020/08/11" [ref=e377]:
+              - paragraph [ref=e378]: 2020/08/11
+            - cell "[BASE API]Ordersのレスポンスに商品オプション Appを対応しました。" [ref=e379]
+            - cell "詳細" [ref=e380]:
+              - link "詳細" [ref=e381] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/api/
+          - row "2020/08/11 商品オプション Appのドキュメントを追加しました。 詳細" [ref=e382]:
+            - cell "2020/08/11" [ref=e383]:
+              - paragraph [ref=e384]: 2020/08/11
+            - cell "商品オプション Appのドキュメントを追加しました。" [ref=e385]
+            - cell "詳細" [ref=e386]:
+              - link "詳細" [ref=e387] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/item_option_app
+          - row "2020/07/14 複数の項目に関してドキュメントを更新しております。 詳細" [ref=e388]:
+            - cell "2020/07/14" [ref=e389]:
+              - paragraph [ref=e390]: 2020/07/14
+            - cell "複数の項目に関してドキュメントを更新しております。" [ref=e391]
+            - cell "詳細" [ref=e392]:
+              - link "詳細" [ref=e393] [cursor=pointer]:
+                - /url: "#"
+          - row "2020/07/13 プレビューのご利用方法を追加しました。 詳細" [ref=e394]:
+            - cell "2020/07/13" [ref=e395]:
+              - paragraph [ref=e396]: 2020/07/13
+            - cell "プレビューのご利用方法を追加しました。" [ref=e397]
+            - cell "詳細" [ref=e398]:
+              - link "詳細" [ref=e399] [cursor=pointer]:
+                - /url: "#"
+          - row "2020/06/26 テイクアウト Appのドキュメントを追加しました。 詳細" [ref=e400]:
+            - cell "2020/06/26" [ref=e401]:
+              - paragraph [ref=e402]: 2020/06/26
+            - cell "テイクアウト Appのドキュメントを追加しました。" [ref=e403]
+            - cell "詳細" [ref=e404]:
+              - link "詳細" [ref=e405] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/takeout_app
+          - row "2020/05/19 テーマ申請チェックリストに「商品一覧」を追記しました。 詳細" [ref=e406]:
+            - cell "2020/05/19" [ref=e407]:
+              - paragraph [ref=e408]: 2020/05/19
+            - cell "テーマ申請チェックリストに「商品一覧」を追記しました。" [ref=e409]
+            - cell "詳細" [ref=e410]:
+              - link "詳細" [ref=e411] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2020/04/24 テーマ申請チェックリストを更新しました。 詳細" [ref=e412]:
+            - cell "2020/04/24" [ref=e413]:
+              - paragraph [ref=e414]: 2020/04/24
+            - cell "テーマ申請チェックリストを更新しました。" [ref=e415]
+            - cell "詳細" [ref=e416]:
+              - link "詳細" [ref=e417] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2020/04/17 デザイナー登録のドキュメントを追加しました。 詳細" [ref=e418]:
+            - cell "2020/04/17" [ref=e419]:
+              - paragraph [ref=e420]: 2020/04/17
+            - cell "デザイナー登録のドキュメントを追加しました。" [ref=e421]
+            - cell "詳細" [ref=e422]:
+              - link "詳細" [ref=e423] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/designer
+          - row "2020/04/17 抽選 Appのドキュメントを追加しました。 詳細" [ref=e424]:
+            - cell "2020/04/17" [ref=e425]:
+              - paragraph [ref=e426]: 2020/04/17
+            - cell "抽選 Appのドキュメントを追加しました。" [ref=e427]
+            - cell "詳細" [ref=e428]:
+              - link "詳細" [ref=e429] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/lottery_app
+          - row "2020/04/17 商品説明カスタム Appのドキュメントを追加しました。 詳細" [ref=e430]:
+            - cell "2020/04/17" [ref=e431]:
+              - paragraph [ref=e432]: 2020/04/17
+            - cell "商品説明カスタム Appのドキュメントを追加しました。" [ref=e433]
+            - cell "詳細" [ref=e434]:
+              - link "詳細" [ref=e435] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/item_layout_app
+          - row "2020/03/10 テーマ申請チェックリストを更新しました。 詳細" [ref=e436]:
+            - cell "2020/03/10" [ref=e437]:
+              - paragraph [ref=e438]: 2020/03/10
+            - cell "テーマ申請チェックリストを更新しました。" [ref=e439]
+            - cell "詳細" [ref=e440]:
+              - link "詳細" [ref=e441] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2020/03/10 よくある質問を追加しました。 詳細" [ref=e442]:
+            - cell "2020/03/10" [ref=e443]:
+              - paragraph [ref=e444]: 2020/03/10
+            - cell "よくある質問を追加しました。" [ref=e445]
+            - cell "詳細" [ref=e446]:
+              - link "詳細" [ref=e447] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/faq/
+          - 'row "2020/01/14 [テーマ]「外部サイトに貼るのタグ（{EmbedWidgetTag}）」の提供を終了いたしました。 詳細" [ref=e448]':
+            - cell "2020/01/14" [ref=e449]:
+              - paragraph [ref=e450]: 2020/01/14
+            - 'cell "[テーマ]「外部サイトに貼るのタグ（{EmbedWidgetTag}）」の提供を終了いたしました。" [ref=e451]'
+            - cell "詳細" [ref=e452]:
+              - link "詳細" [ref=e453] [cursor=pointer]:
+                - /url: "#"
+          - row "2019/12/20 テーマ申請チェックリストを更新しました。(タッチデバイスのチェック等) 詳細" [ref=e454]:
+            - cell "2019/12/20" [ref=e455]:
+              - paragraph [ref=e456]: 2019/12/20
+            - cell "テーマ申請チェックリストを更新しました。(タッチデバイスのチェック等)" [ref=e457]
+            - cell "詳細" [ref=e458]:
+              - link "詳細" [ref=e459] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2019/12/20 新規テーマの販売申請とテーマのアップデート申請を更新しました。 詳細" [ref=e460]:
+            - cell "2019/12/20" [ref=e461]:
+              - paragraph [ref=e462]: 2019/12/20
+            - cell "新規テーマの販売申請とテーマのアップデート申請を更新しました。" [ref=e463]
+            - cell "詳細" [ref=e464]:
+              - link "詳細" [ref=e465] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/request
+          - row "2019/10/30 [テーマ]テーマ申請チェックリストを更新しました 詳細" [ref=e466]:
+            - cell "2019/10/30" [ref=e467]:
+              - paragraph [ref=e468]: 2019/10/30
+            - cell "[テーマ]テーマ申請チェックリストを更新しました" [ref=e469]
+            - cell "詳細" [ref=e470]:
+              - link "詳細" [ref=e471] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/guideline/check_list
+          - row "2019/10/24 [テーマ] テーマの作成・管理ができるようになりました。 詳細" [ref=e472]:
+            - cell "2019/10/24" [ref=e473]:
+              - paragraph [ref=e474]: 2019/10/24
+            - cell "[テーマ] テーマの作成・管理ができるようになりました。" [ref=e475]
+            - cell "詳細" [ref=e476]:
+              - link "詳細" [ref=e477] [cursor=pointer]:
+                - /url: "#"
+          - row "2019/09/02 [BASE API]ItemとOrdersに税率設定の項目を追加しました 詳細" [ref=e478]:
+            - cell "2019/09/02" [ref=e479]:
+              - paragraph [ref=e480]: 2019/09/02
+            - cell "[BASE API]ItemとOrdersに税率設定の項目を追加しました" [ref=e481]
+            - cell "詳細" [ref=e482]:
+              - link "詳細" [ref=e483] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/api/
+          - row "2018/05/15 [テーマ]ショップコイン App の変数を追加しました 詳細" [ref=e484]:
+            - cell "2018/05/15" [ref=e485]:
+              - paragraph [ref=e486]: 2018/05/15
+            - cell "[テーマ]ショップコイン App の変数を追加しました" [ref=e487]
+            - cell "詳細" [ref=e488]:
+              - link "詳細" [ref=e489] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/coin_funding_app
+          - row "2018/04/03 [テーマ]テーマ情報に最終更新日を表示するようにしました 詳細" [ref=e490]:
+            - cell "2018/04/03" [ref=e491]:
+              - paragraph [ref=e492]: 2018/04/03
+            - cell "[テーマ]テーマ情報に最終更新日を表示するようにしました" [ref=e493]
+            - cell "詳細" [ref=e494]:
+              - link "詳細" [ref=e495] [cursor=pointer]:
+                - /url: https://design.thebase.in/
+          - row "2018/03/19 [BASE API]Ordersのレスポンスに希望配送日時を追加しました 詳細" [ref=e496]:
+            - cell "2018/03/19" [ref=e497]:
+              - paragraph [ref=e498]: 2018/03/19
+            - cell "[BASE API]Ordersのレスポンスに希望配送日時を追加しました" [ref=e499]
+            - cell "詳細" [ref=e500]:
+              - link "詳細" [ref=e501] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/api/
+          - row "2018/02/15 [テーマ]関連商品の変数を追加しました 詳細" [ref=e502]:
+            - cell "2018/02/15" [ref=e503]:
+              - paragraph [ref=e504]: 2018/02/15
+            - cell "[テーマ]関連商品の変数を追加しました" [ref=e505]
+            - cell "詳細" [ref=e506]:
+              - link "詳細" [ref=e507] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/
+          - row "2018/02/08 ダッシュボード機能ができました" [ref=e508]:
+            - cell "2018/02/08" [ref=e509]:
+              - paragraph [ref=e510]: 2018/02/08
+            - cell "ダッシュボード機能ができました" [ref=e511]
+            - cell [ref=e512]
+          - row "2017/09/20 [テーマ]セール App の変数を追加しました 詳細" [ref=e513]:
+            - cell "2017/09/20" [ref=e514]:
+              - paragraph [ref=e515]: 2017/09/20
+            - cell "[テーマ]セール App の変数を追加しました" [ref=e516]
+            - cell "詳細" [ref=e517]:
+              - link "詳細" [ref=e518] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/apps/sale_app
+          - row "2017/07/25 [テーマ]画像20枚対応の変数を追加しました 詳細" [ref=e519]:
+            - cell "2017/07/25" [ref=e520]:
+              - paragraph [ref=e521]: 2017/07/25
+            - cell "[テーマ]画像20枚対応の変数を追加しました" [ref=e522]
+            - cell "詳細" [ref=e523]:
+              - link "詳細" [ref=e524] [cursor=pointer]:
+                - /url: https://docs.thebase.in/docs/template/

@@ -1,0 +1,226 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - link "Etsy" [ref=e6] [cursor=pointer]:
+        - /url: /jp/?ref=lgo
+        - generic [ref=e7]: Etsy
+        - img [ref=e9]
+      - navigation [ref=e11]:
+        - button "カテゴリー" [ref=e13] [cursor=pointer]:
+          - img [ref=e15]
+          - text: カテゴリー
+      - search [ref=e22]:
+        - generic [ref=e23]: 商品やショップを探す
+        - generic [ref=e25]:
+          - combobox "商品やショップを探す" [ref=e26]
+          - button "検索" [ref=e27] [cursor=pointer]:
+            - img [ref=e29]
+      - link "次へ進む" [ref=e31] [cursor=pointer]:
+        - /url: "#content"
+        - generic [ref=e33]: 次へ進む
+      - navigation "メイン" [ref=e35]:
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - button "ログイン" [ref=e38] [cursor=pointer]
+          - listitem [ref=e39]:
+            - button [ref=e41] [cursor=pointer]:
+              - img [ref=e44]
+          - listitem [ref=e52]:
+            - link "お気に入り" [ref=e54] [cursor=pointer]:
+              - /url: https://www.etsy.com/jp/guest/favorites?ref=hdr-fav
+              - img [ref=e56]
+          - listitem [ref=e58]:
+            - link "カートに 0 個の商品" [ref=e60] [cursor=pointer]:
+              - /url: https://www.etsy.com/jp/cart?ref=hdr-cart
+              - img [ref=e62]
+    - navigation [ref=e64]:
+      - list [ref=e68]:
+        - listitem [ref=e69]:
+          - link "ギフト" [ref=e70] [cursor=pointer]:
+            - /url: /jp/featured/hub/gifts?ref=gift_global_nav
+            - img [ref=e72]
+            - text: ギフト
+        - listitem [ref=e74]:
+          - link "お父さん向けギフト" [ref=e75] [cursor=pointer]:
+            - /url: https://www.etsy.com/jp/r/curated/best-of-fathers-day?sections=1468245784923&narrow=best-of-fathers-day&ref=BestFDAYGifts26_cat_nav
+        - listitem [ref=e76]:
+          - link "ホームのお気に入り" [ref=e77] [cursor=pointer]:
+            - /url: /jp/featured/hub/home-favorites?ref=contentful_promo_cat_nav-4
+        - listitem [ref=e78]:
+          - link "ファッショナブルな一品" [ref=e79] [cursor=pointer]:
+            - /url: /jp/featured/hub/fashion-favorites?ref=contentful_promo_cat_nav-5
+        - listitem [ref=e80]:
+          - link "ビンテージ" [ref=e81] [cursor=pointer]:
+            - /url: /jp/r/curated/etsys-best-vintage-finds?sections=1461029776888&narrow=best-vintage-finds&ref=contentful_promo_cat_nav-6
+        - listitem [ref=e82]:
+          - link "レジストリー" [ref=e83] [cursor=pointer]:
+            - /url: /jp/registry?ref=contentful_promo_cat_nav-8
+  - main [ref=e84]:
+    - generic [ref=e85]:
+      - navigation [ref=e87]:
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - link "ホーム" [ref=e90] [cursor=pointer]:
+              - /url: /developers
+        - heading "API v3 を開く" [level=3] [ref=e91]
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "デベロッパーガイド" [ref=e94] [cursor=pointer]:
+              - /url: https://developers.etsy.com/documentation/
+          - listitem [ref=e95]:
+            - link "参照" [ref=e96] [cursor=pointer]:
+              - /url: https://developers.etsy.com/documentation/reference/
+        - heading "あなたのデベロッパーアカウント" [level=3] [ref=e97]
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "ログインまたは新規登録" [ref=e100] [cursor=pointer]:
+              - /url: /developers/register
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "API 利用規約" [ref=e103] [cursor=pointer]:
+              - /url: /jp/legal/api
+      - generic [ref=e105]:
+        - heading "Apps You've Made" [level=1] [ref=e106]
+        - heading "Get Started Making Apps" [level=2] [ref=e107]
+        - paragraph [ref=e108]:
+          - strong [ref=e109]: How does this work?
+          - text: Click the button below to register for an Etsy OpenAPI application. Once approved, you will receive an API key with personal access and ratelimits, allowing you to read and write data for up to 5 shops via OAuth token scopes. If you'd like to scale your application even further, you can request for commercial access. Read more
+          - link "here" [ref=e110] [cursor=pointer]:
+            - /url: https://developers.etsy.com/documentation/#personal-access
+          - text: .
+        - link "Create a New App" [ref=e111] [cursor=pointer]:
+          - /url: /developers/register
+  - contentinfo [ref=e113]:
+    - generic [ref=e116]:
+      - paragraph [ref=e118]: はい！Etsy でお買い物や販売をするための、特別オファー、ユニークなギフトアイデア、パーソナライズのコツなど送ってください。
+      - generic [ref=e119]:
+        - generic [ref=e120]: メールアドレスを入力
+        - generic [ref=e121]:
+          - textbox "メールアドレスを入力" [ref=e122]
+          - button "配信登録" [ref=e123] [cursor=pointer]
+    - button "Etsy は 100％ 再生可能電気を利用しています。" [ref=e128]:
+      - img [ref=e131]
+      - generic [ref=e135]: Etsy は 100％ 再生可能電気を利用しています。
+    - generic [ref=e136]:
+      - navigation "フッター" [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - heading "ショップ" [level=3] [ref=e141]
+            - list [ref=e143]:
+              - listitem [ref=e144]:
+                - link "ギフトカード" [ref=e145] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/giftcards?ref=ftr
+              - listitem [ref=e146]:
+                - link "Etsy レジストリー" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/registry?ref=ftr
+              - listitem [ref=e148]:
+                - link "サイトマップ" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/categories
+              - listitem [ref=e150]:
+                - link "Etsy ブログ" [ref=e151] [cursor=pointer]:
+                  - /url: /blog/en/?ref=ftr
+              - listitem [ref=e152]:
+                - link "Etsy イギリス" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.etsy.com/uk?locale_override=GBP%7Cen-GB%7CGB
+              - listitem [ref=e154]:
+                - link "Etsy ドイツ" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.etsy.com/de?locale_override=EUR%7Cde%7CDE
+              - listitem [ref=e156]:
+                - link "Etsy カナダ" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.etsy.com/ca?locale_override=CAD%7Cen-US%7CCA
+          - generic [ref=e158]:
+            - heading "売る" [level=3] [ref=e159]
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "Etsy セラーアプリ" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/sell?ref=ftr
+              - listitem [ref=e164]:
+                - link "チーム" [ref=e165] [cursor=pointer]:
+                  - /url: https://community.etsy.com/pages/etsy-teams/
+              - listitem [ref=e166]:
+                - link "フォーラム" [ref=e167] [cursor=pointer]:
+                  - /url: https://community.etsy.com/feed/
+              - listitem [ref=e168]:
+                - link "アフィリエイトと Creator Co" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/affiliates?ref=ftr
+          - generic [ref=e170]:
+            - heading "Etsy について" [level=3] [ref=e171]
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - link "Etsy, Inc." [ref=e175] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/about?ref=ftr
+              - listitem [ref=e176]:
+                - link "ポリシー" [ref=e177] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/legal?ref=ftr
+              - listitem [ref=e178]:
+                - link "投資家" [ref=e179] [cursor=pointer]:
+                  - /url: https://investors.etsy.com
+              - listitem [ref=e180]:
+                - link "採用情報" [ref=e181] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/careers?ref=ftr
+              - listitem [ref=e182]:
+                - link "プレス" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/press?ref=ftr
+              - listitem [ref=e184]:
+                - link "インパクト" [ref=e185] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/impact?ref=ftr
+              - listitem [ref=e186]:
+                - link "インプレスム（所有者情報）" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/help/article/25840304230?ref=ftr
+          - generic [ref=e188]:
+            - heading "ヘルプ" [level=3] [ref=e189]
+            - list [ref=e191]:
+              - listitem [ref=e192]:
+                - link "ヘルプセンター" [ref=e193] [cursor=pointer]:
+                  - /url: https://www.etsy.com/jp/help?ref=ftr
+              - listitem [ref=e194]:
+                - link "プライバシー設定" [ref=e195] [cursor=pointer]:
+                  - /url: "#"
+            - list [ref=e198]:
+              - listitem [ref=e199]:
+                - link "Instagram" [ref=e200] [cursor=pointer]:
+                  - /url: /jp/social-tracking?network=instagram
+                  - img [ref=e202]
+                  - generic [ref=e205]: Instagram
+              - listitem [ref=e206]:
+                - link "Facebook" [ref=e207] [cursor=pointer]:
+                  - /url: /jp/social-tracking?network=facebook
+                  - img [ref=e209]
+                  - generic [ref=e211]: Facebook
+              - listitem [ref=e212]:
+                - link "Pinterest" [ref=e213] [cursor=pointer]:
+                  - /url: /jp/social-tracking?network=pinterest
+                  - img [ref=e215]
+                  - generic [ref=e217]: Pinterest
+              - listitem [ref=e218]:
+                - link "Youtube" [ref=e219] [cursor=pointer]:
+                  - /url: /jp/social-tracking?network=youtube
+                  - img [ref=e221]
+                  - generic [ref=e223]: Youtube
+      - generic [ref=e224]:
+        - link "Etsy アプリをダウンロードしましょう" [ref=e225] [cursor=pointer]:
+          - /url: https://etsy.app.link/d7nDUdp49V
+          - img [ref=e227]
+        - link "Etsy アプリをダウンロードしましょう" [ref=e230] [cursor=pointer]:
+          - /url: https://etsy.app.link/d7nDUdp49V
+    - generic [ref=e232]:
+      - button "設定を更新する 日本 日本語 ¥ (JPY)" [ref=e234] [cursor=pointer]:
+        - img [ref=e237]
+        - generic [ref=e245]: 日本 | 日本語 | ¥ (JPY)
+      - generic [ref=e246]:
+        - generic [ref=e247]: © 2026 Etsy, Inc.
+        - list [ref=e248]:
+          - listitem [ref=e249]:
+            - link "利用規約" [ref=e250] [cursor=pointer]:
+              - /url: /jp/legal/terms-of-use?ref=ftr
+          - listitem [ref=e251]:
+            - link "プライバシー" [ref=e252] [cursor=pointer]:
+              - /url: /jp/legal/privacy/?ref=ftr
+          - listitem [ref=e253]:
+            - link "インタレストベース広告" [ref=e254] [cursor=pointer]:
+              - /url: /jp/legal/policy/cookies-tracking-technologies/44797645975?ref=ftr#marketing-services
+          - listitem [ref=e255]:
+            - link "お近くのショップ" [ref=e256] [cursor=pointer]:
+              - /url: /jp/search/shops
+          - listitem [ref=e257]:
+            - button "地域" [ref=e258] [cursor=pointer]

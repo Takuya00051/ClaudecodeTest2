@@ -1,0 +1,3 @@
+[    1102ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://developers.thebase.com/shop_admin/api/global_side_nav:0
+[    2588ms] [ERROR] Attestation check for Attribution Reporting on https://ara.paa-reporting-advertising.amazon failed. @ https://developers.thebase.com/applications:0
+[    2589ms] [ERROR] Attestation check for Shared Storage on https://ara.paa-reporting-advertising.amazon failed. @ https://developers.thebase.com/applications:0

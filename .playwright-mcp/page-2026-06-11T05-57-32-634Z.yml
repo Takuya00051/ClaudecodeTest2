@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - generic [ref=e3]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://thebase.com
+        - generic [ref=e7]: Developers
+      - navigation:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - generic [ref=e10] [cursor=pointer]: ドキュメント
+          - listitem [ref=e11]:
+            - link "開発ブログ" [ref=e12] [cursor=pointer]:
+              - /url: https://devblog.thebase.in/
+          - listitem [ref=e13]:
+            - link "ログイン" [ref=e14] [cursor=pointer]:
+              - /url: https://developers.thebase.com/dashboard
+          - listitem [ref=e15]:
+            - link "アカウント登録" [ref=e16] [cursor=pointer]:
+              - /url: https://admin.thebase.com/users/add
+  - generic [ref=e18]:
+    - heading "Welcome to BASE Developers!" [level=1] [ref=e19]
+    - heading "BASE APIを活用してあなたのサービスとECを連携しませんか？" [level=2] [ref=e20]:
+      - text: BASE APIを活用して
+      - text: あなたのサービスとECを連携しませんか？
+    - paragraph [ref=e21]:
+      - text: BASE Developersでは開発者向けのAPIやドキュメントを提供しています。
+      - text: 国内最大級のECプラットフォームであるBASEを最大限に活用してください。
+    - generic [ref=e22]:
+      - link "ログイン" [ref=e23] [cursor=pointer]:
+        - /url: https://developers.thebase.com/dashboard
+      - link "アカウント登録" [ref=e24] [cursor=pointer]:
+        - /url: https://admin.thebase.com/users/add
+  - generic [ref=e25]:
+    - heading "BASEではECサービスの運営に役立つドキュメントを公開しています" [level=2] [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "BASE API" [level=3] [ref=e32]
+        - paragraph [ref=e33]:
+          - text: BASE APIを利用することで、あなたのサービスとBASEを連携することができます。210万人以上のショップオーナーに向けたサービスの提供も可能に。
+          - text: 例えば、BASEのショップの商品情報を取得したり、商品情報を更新したり、注文情報を取得することができます。
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "ドキュメントを見る" [ref=e36] [cursor=pointer]:
+              - /url: https://docs.thebase.in/docs/api/
+          - listitem [ref=e37]:
+            - link "API利用規約" [ref=e38] [cursor=pointer]:
+              - /url: https://thebase.com/pages/api_term
+        - link "申請する" [ref=e39] [cursor=pointer]:
+          - /url: https://developers.thebase.com/apply
+      - generic [ref=e40]:
+        - heading "BASE Template" [level=3] [ref=e43]
+        - paragraph [ref=e44]:
+          - text: ショップのテンプレートを自由に編集できる機能です。BASE Templateを活用すれば、オリジナルのショップテンプレートを作ることができます。
+          - text: 作成したテンプレートは
+          - link "デザインマーケット" [ref=e45] [cursor=pointer]:
+            - /url: https://design.thebase.com
+          - text: で販売することができます。販売には申請が必要です。
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "ドキュメントを見る" [ref=e48] [cursor=pointer]:
+              - /url: https://docs.thebase.in/docs/template/
+          - listitem [ref=e49]:
+            - link "デザインマーケット利用規約" [ref=e50] [cursor=pointer]:
+              - /url: https://thebase.com/pages/designmarket_term
+        - link "申請する" [ref=e51] [cursor=pointer]:
+          - /url: https://developers.thebase.com/designer_apply
+  - generic [ref=e52]:
+    - heading "導入事例" [level=2] [ref=e53]
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - heading "クラウド会計ソフト「freee」" [level=3] [ref=e57]
+        - figure [ref=e59]:
+          - img "freee" [ref=e60]
+        - paragraph [ref=e61]:
+          - text: 注文数が多いネットショップは、入金、手数料、取消などの決済関連のやりとりも多く、これらを全て手入力で会計帳簿に入力する場合は、 データ入力に手間がかかり、転記ミスなども生じるため、経理業務は運営者の大きな負担となっていました。
+          - text: BASEとの連携により、BASEをお使いのネットショップのオーナー様は売上高はもちろん、決済手数料や送料などの各種手数料まで自動でクラウド会計ソフト freeeに取り込むことができます。
+          - text: これにより、会計帳簿への転記作業がなくなり、記帳が自動で完結するため、経理業務にかける時間が大幅に短縮することができます。
+      - generic [ref=e63]:
+        - heading "Ameba Ownd「Ownd ショップ」" [level=3] [ref=e64]
+        - figure [ref=e66]:
+          - img "ownd shop" [ref=e67]
+        - paragraph [ref=e68]:
+          - text: 「AmebaOwnd」はブログのような気軽さでデザイン性の高いウェブサイトを制作することができるサービスです。一般ユーザーに加え、著名人や、企業、店舗のビジネス利用など、幅広いシーンで活用されています。
+          - text: ユーザーから要望の高かったEC機能「Owndショップ」を「BASE API」と連携することで、初期費用、月額費用ともに無料でEC機能を利用することが可能となりました。
+          - text: 新規ショップ開設を「AmebaOwnd」上で行えるほか、作成した同じドメイン内にショップを開設できます。また、商品登録や売上の確認なども「AmebaOwnd」の管理画面で行うことができます。
+      - generic [ref=e70]:
+        - heading "BASE DESIGN MARKET" [level=3] [ref=e71]
+        - figure [ref=e73]:
+          - img "BASE DESIGN MARKET" [ref=e74]
+        - paragraph [ref=e75]:
+          - text: 無料のテンプレートでは物足りないあなたに。クリエイターが作成したオリジナルのテンプレートが集まるBASE DESIGN MARKET。
+          - text: お気に入りのテンプレートを見つけて、あなたのショップデザインをレベルアップ。ネットショップのデザインにとことんこだわりたいあなたに。
+          - text: HTML編集APPを使って、html/css/javascriptを自由に編集。
+          - text: あなたが作ったオリジナルテンプレートを、BASE DESIGN MARKETで販売することもできます。
+  - generic [ref=e77]:
+    - link "BASE API FAQ BASE API開発に関するFAQやお問い合わせはこちら。" [ref=e79] [cursor=pointer]:
+      - /url: https://help.thebase.in/hc/ja/sections/8507567845017-BASE-API%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+      - generic [ref=e82]:
+        - heading "BASE API FAQ" [level=3] [ref=e83]
+        - paragraph [ref=e84]: BASE API開発に関するFAQやお問い合わせはこちら。
+    - link "BASE Template FAQ BASEテンプレートに関するFAQやお問い合わせはこちら。" [ref=e86] [cursor=pointer]:
+      - /url: https://docs.thebase.in/docs/template/faq/
+      - generic [ref=e89]:
+        - heading "BASE Template FAQ" [level=3] [ref=e90]
+        - paragraph [ref=e91]: BASEテンプレートに関するFAQやお問い合わせはこちら。
+  - contentinfo [ref=e92]:
+    - generic [ref=e93]:
+      - paragraph [ref=e95]:
+        - generic [ref=e96]: 一緒にBASEを活用しませんか？
+        - text: はじめましょう！
+      - generic [ref=e97]:
+        - link "ログイン" [ref=e98] [cursor=pointer]:
+          - /url: https://developers.thebase.com/dashboard
+        - link "アカウント登録" [ref=e99] [cursor=pointer]:
+          - /url: https://admin.thebase.com/users/add
+    - generic [ref=e100]:
+      - list [ref=e101]:
+        - listitem [ref=e102]:
+          - link "API利用規約" [ref=e103] [cursor=pointer]:
+            - /url: https://thebase.com/pages/api_term
+        - listitem [ref=e104]:
+          - link "デザインマーケット利用規約" [ref=e105] [cursor=pointer]:
+            - /url: https://thebase.com/pages/designmarket_term
+      - list [ref=e106]:
+        - listitem [ref=e107]:
+          - link [ref=e108] [cursor=pointer]:
+            - /url: https://www.facebook.com/BASEec/
+            - generic [ref=e109]: 
+        - listitem [ref=e110]:
+          - link [ref=e111] [cursor=pointer]:
+            - /url: https://x.com/BASEec
+            - img [ref=e112]
+        - listitem [ref=e116]:
+          - link [ref=e117] [cursor=pointer]:
+            - /url: https://www.instagram.com/baseec/
+            - generic [ref=e118]: 
+        - listitem [ref=e119]:
+          - link [ref=e120] [cursor=pointer]:
+            - /url: https://github.com/baseinc
+            - generic [ref=e121]: 
+    - generic [ref=e122]:
+      - text: © 2012-2026
+      - link "BASE, Inc." [ref=e123] [cursor=pointer]:
+        - /url: http://binc.jp

@@ -1,0 +1,40 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading [level=1] [ref=e7]:
+          - img [ref=e8]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "ダッシュボード" [ref=e11] [cursor=pointer]:
+              - /url: https://developers.thebase.com/dashboard
+          - listitem [ref=e12]:
+            - link "テーマ" [ref=e13] [cursor=pointer]:
+              - /url: https://developers.thebase.com/themes
+          - listitem [ref=e14]:
+            - link "アプリケーション" [ref=e15] [cursor=pointer]:
+              - /url: https://developers.thebase.com/apps
+          - listitem [ref=e16]:
+            - link "ツール" [ref=e17] [cursor=pointer]:
+              - /url: https://developers.thebase.com/tools/upload_file
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "管理画面" [ref=e21] [cursor=pointer]:
+            - /url: https://admin.thebase.com
+  - main [ref=e22]:
+    - list [ref=e24]:
+      - listitem [ref=e25]:
+        - link "一覧" [ref=e26] [cursor=pointer]:
+          - /url: /apps
+      - listitem [ref=e27]:
+        - link "新規作成" [ref=e28] [cursor=pointer]:
+          - /url: /apply
+      - listitem [ref=e29]:
+        - link "ドキュメント" [ref=e30] [cursor=pointer]:
+          - /url: https://developers.thebase.com/docs
+    - generic [ref=e31]:
+      - list
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: まだアプリが登録されていません。
+        - link "アプリを作成する" [ref=e35] [cursor=pointer]:
+          - /url: /apply

@@ -1,0 +1,914 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - button "" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: 
+        - link [ref=e10] [cursor=pointer]:
+          - /url: //admin.thebase.com
+          - img [ref=e11]
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - button "" [ref=e20] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e23]: 
+            - text: 
+          - link "" [ref=e26] [cursor=pointer]:
+            - /url: //admin.thebase.com/shop_admin/inquiries
+            - generic [ref=e27]: 
+      - separator [ref=e28]
+      - generic [ref=e30]:
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link " ホーム" [ref=e37] [cursor=pointer]:
+              - /url: //admin.thebase.com/dashboard
+              - generic [ref=e39]: 
+              - generic [ref=e40]: ホーム
+          - listitem [ref=e41]:
+            - link " 商品" [ref=e43] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/items
+              - generic [ref=e45]: 
+              - generic [ref=e46]: 商品
+          - listitem [ref=e47]:
+            - link " 注文" [ref=e49] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/orders
+              - generic [ref=e51]: 
+              - generic [ref=e52]: 注文
+          - listitem [ref=e53]:
+            - link " 顧客" [ref=e55] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/customers
+              - generic [ref=e57]: 
+              - generic [ref=e58]: 顧客
+          - listitem [ref=e59]:
+            - link " 売上" [ref=e61] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/balance
+              - generic [ref=e63]: 
+              - generic [ref=e64]: 売上
+          - listitem [ref=e65]:
+            - link " データ" [ref=e67] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/data
+              - generic [ref=e69]: 
+              - generic [ref=e70]: データ
+          - listitem [ref=e71]:
+            - link " デザイン" [ref=e73] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/design
+              - generic [ref=e75]: 
+              - generic [ref=e76]: デザイン
+          - listitem [ref=e77]:
+            - link " PAY ID アプリ" [ref=e79] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/payid_app_data
+              - generic [ref=e81]: 
+              - generic [ref=e82]: PAY ID アプリ
+          - listitem [ref=e83]:
+            - button " Apps " [ref=e87] [cursor=pointer]:
+              - generic [ref=e89]: 
+              - generic [ref=e90]: Apps
+              - generic [ref=e91]: 
+        - generic [ref=e92]:
+          - paragraph [ref=e94]: お気に入りのApps
+          - generic [ref=e96]:
+            - paragraph [ref=e97]:
+              - generic [ref=e98]:
+                - text: よく使うAppsをお気に入りすると
+                - text: すぐにアクセスできます
+            - button " お気に入りを追加" [ref=e99] [cursor=pointer]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: 
+                - generic [ref=e102]: お気に入りを追加
+      - separator [ref=e103]
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - button " 設定 " [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: 
+            - generic [ref=e111]: 設定
+            - generic [ref=e112]: 
+        - listitem [ref=e113]:
+          - link " ヘルプ" [ref=e115] [cursor=pointer]:
+            - /url: https://help.thebase.in/hc/ja
+            - generic [ref=e117]: 
+            - generic [ref=e118]: ヘルプ
+    - main [ref=e119]:
+      - generic [ref=e122]:
+        - generic [ref=e123]: 
+        - paragraph [ref=e124]: システムで問題が発生しました。時間をおいて再度お試しください
+        - generic [ref=e126] [cursor=pointer]: 
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - link [ref=e133] [cursor=pointer]:
+              - /url: https://baseu.jp/24548
+              - img [ref=e134]
+            - tabpanel [ref=e135]:
+              - link "TikTok Shop連携" [ref=e136] [cursor=pointer]:
+                - /url: https://apps.thebase.com/detail/137
+                - img "TikTok Shop連携" [ref=e137]
+            - tabpanel [ref=e138]:
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://baseu.jp/17111
+                - img [ref=e140]
+            - tabpanel [ref=e141]:
+              - link [ref=e142] [cursor=pointer]:
+                - /url: https://baseu.jp/24548
+                - img [ref=e143]
+            - link [ref=e145] [cursor=pointer]:
+              - /url: https://apps.thebase.com/detail/137
+              - img [ref=e146]
+            - link [ref=e148] [cursor=pointer]:
+              - /url: https://baseu.jp/17111
+              - img [ref=e149]
+            - link [ref=e151] [cursor=pointer]:
+              - /url: https://baseu.jp/24548
+              - img [ref=e152]
+          - tablist [ref=e153]:
+            - tab "1 of 3" [selected] [ref=e154] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e155] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e156] [cursor=pointer]: "3"
+        - generic [ref=e157]:
+          - group [ref=e158]:
+            - generic [ref=e159]:
+              - textbox "例：デザイン" [ref=e161]
+              - button "検索" [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]: 
+                - text: 検索
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - group "Appsタイプ" [ref=e167]:
+                - generic [ref=e168]: Appsタイプ
+                - paragraph [ref=e170] [cursor=pointer]:
+                  - text: すべて
+                  - generic [ref=e171]: 
+            - listitem [ref=e172]:
+              - group "価格" [ref=e173]:
+                - generic [ref=e174]: 価格
+                - paragraph [ref=e176] [cursor=pointer]:
+                  - text: すべて
+                  - generic [ref=e177]: 
+            - listitem [ref=e178]:
+              - group "カテゴリ" [ref=e179]:
+                - generic [ref=e180]: カテゴリ
+                - paragraph [ref=e182] [cursor=pointer]:
+                  - text: すべて
+                  - generic [ref=e183]: 
+          - generic [ref=e184]:
+            - img [ref=e186]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - heading "ショップのルールを設定する" [level=3] [ref=e191]
+                - list [ref=e192]:
+                  - listitem [ref=e193]:
+                    - link "シークレットEC シークレットEC 会員や卸先企業などに向けて、ショップにパスワードを設定 無料" [ref=e194] [cursor=pointer]:
+                      - /url: /applications/detail/12
+                      - img "シークレットEC" [ref=e195]
+                      - generic [ref=e196]:
+                        - paragraph [ref=e197]: シークレットEC
+                        - paragraph [ref=e198]: 会員や卸先企業などに向けて、ショップにパスワードを設定
+                      - paragraph [ref=e200]: 無料
+                  - listitem [ref=e201]:
+                    - link "配送日設定 配送日設定 商品の配送希望日時をお客様が指定できる 無料" [ref=e202] [cursor=pointer]:
+                      - /url: /applications/detail/69
+                      - img "配送日設定" [ref=e203]
+                      - generic [ref=e204]:
+                        - paragraph [ref=e205]: 配送日設定
+                        - paragraph [ref=e206]: 商品の配送希望日時をお客様が指定できる
+                      - paragraph [ref=e208]: 無料
+                  - listitem [ref=e209]:
+                    - link "独自ドメイン 独自ドメイン ショップのURLを自由に設定 無料" [ref=e210] [cursor=pointer]:
+                      - /url: /applications/detail/6
+                      - img "独自ドメイン" [ref=e211]
+                      - generic [ref=e212]:
+                        - paragraph [ref=e213]: 独自ドメイン
+                        - paragraph [ref=e214]: ショップのURLを自由に設定
+                      - paragraph [ref=e216]: 無料
+                  - listitem [ref=e217]:
+                    - link "送料詳細設定 送料詳細設定 国内外の地域に合わせた送料を商品ごとに設定 利用中" [ref=e218] [cursor=pointer]:
+                      - /url: /applications/detail/10
+                      - img "送料詳細設定" [ref=e219]
+                      - generic [ref=e220]:
+                        - paragraph [ref=e221]: 送料詳細設定
+                        - paragraph [ref=e222]: 国内外の地域に合わせた送料を商品ごとに設定
+                      - paragraph [ref=e224]: 利用中
+                  - listitem [ref=e225]:
+                    - link "英語・外貨対応 英語・外貨対応 海外のお客様に向けショップを英語表示、通貨切替にも対応 利用中" [ref=e226] [cursor=pointer]:
+                      - /url: /applications/detail/33
+                      - img "英語・外貨対応" [ref=e227]
+                      - generic [ref=e228]:
+                        - paragraph [ref=e229]: 英語・外貨対応
+                        - paragraph [ref=e230]: 海外のお客様に向けショップを英語表示、通貨切替にも対応
+                      - paragraph [ref=e232]: 利用中
+                  - listitem [ref=e233]:
+                    - link "年齢制限 年齢制限 購入時に年齢確認を表示、酒類販売などに対応 無料" [ref=e234] [cursor=pointer]:
+                      - /url: /applications/detail/42
+                      - img "年齢制限" [ref=e235]
+                      - generic [ref=e236]:
+                        - paragraph [ref=e237]: 年齢制限
+                        - paragraph [ref=e238]: 購入時に年齢確認を表示、酒類販売などに対応
+                      - paragraph [ref=e240]: 無料
+                  - listitem [ref=e241]:
+                    - link "商品検索 商品検索 キーワードでショップの商品が検索できるように 利用中" [ref=e242] [cursor=pointer]:
+                      - /url: /applications/detail/60
+                      - img "商品検索" [ref=e243]
+                      - generic [ref=e244]:
+                        - paragraph [ref=e245]: 商品検索
+                        - paragraph [ref=e246]: キーワードでショップの商品が検索できるように
+                      - paragraph [ref=e248]: 利用中
+                  - listitem [ref=e249]:
+                    - link "ブロックリスト ブロックリスト 登録された情報をもとに、注文を自動でブロック 利用中" [ref=e250] [cursor=pointer]:
+                      - /url: /applications/detail/103
+                      - img "ブロックリスト" [ref=e251]
+                      - generic [ref=e252]:
+                        - paragraph [ref=e253]: ブロックリスト
+                        - paragraph [ref=e254]: 登録された情報をもとに、注文を自動でブロック
+                      - paragraph [ref=e256]: 利用中
+                  - listitem [ref=e257]:
+                    - link "TikTok Shop連携 TikTok Shop連携 TikTok ShopへBASEの商品を連携できます 無料" [ref=e258] [cursor=pointer]:
+                      - /url: /applications/detail/137
+                      - img "TikTok Shop連携" [ref=e259]
+                      - generic [ref=e260]:
+                        - paragraph [ref=e261]: TikTok Shop連携
+                        - paragraph [ref=e262]: TikTok ShopへBASEの商品を連携できます
+                      - paragraph [ref=e264]: 無料
+              - generic [ref=e265]:
+                - heading "商品のルールを設定する" [level=3] [ref=e266]
+                - list [ref=e267]:
+                  - listitem [ref=e268]:
+                    - link "カテゴリ管理 カテゴリ管理 商品をカテゴリ分けして見つけやすく 利用中" [ref=e269] [cursor=pointer]:
+                      - /url: /applications/detail/16
+                      - img "カテゴリ管理" [ref=e270]
+                      - generic [ref=e271]:
+                        - paragraph [ref=e272]: カテゴリ管理
+                        - paragraph [ref=e273]: 商品をカテゴリ分けして見つけやすく
+                      - paragraph [ref=e275]: 利用中
+                  - listitem [ref=e276]:
+                    - link "デジタルコンテンツ販売 デジタルコンテンツ販売 写真集、動画、音楽などのデジタルデータを販売 無料" [ref=e277] [cursor=pointer]:
+                      - /url: /applications/detail/20
+                      - img "デジタルコンテンツ販売" [ref=e278]
+                      - generic [ref=e279]:
+                        - paragraph [ref=e280]: デジタルコンテンツ販売
+                        - paragraph [ref=e281]: 写真集、動画、音楽などのデジタルデータを販売
+                      - paragraph [ref=e283]: 無料
+                  - listitem [ref=e284]:
+                    - link "数量制限 数量制限 限定品や人気商品などの1回の注文で購入できる数を制限 無料" [ref=e285] [cursor=pointer]:
+                      - /url: /applications/detail/44
+                      - img "数量制限" [ref=e286]
+                      - generic [ref=e287]:
+                        - paragraph [ref=e288]: 数量制限
+                        - paragraph [ref=e289]: 限定品や人気商品などの1回の注文で購入できる数を制限
+                      - paragraph [ref=e291]: 無料
+                  - listitem [ref=e292]:
+                    - link "ラベル ラベル 「新商品」「NEW」「SALE」などのラベルで商品注目度をアップ 利用中" [ref=e293] [cursor=pointer]:
+                      - /url: /applications/detail/47
+                      - img "ラベル" [ref=e294]
+                      - generic [ref=e295]:
+                        - paragraph [ref=e296]: ラベル
+                        - paragraph [ref=e297]: 「新商品」「NEW」「SALE」などのラベルで商品注目度をアップ
+                      - paragraph [ref=e299]: 利用中
+                  - listitem [ref=e300]:
+                    - link "定期便 定期便 消耗品や食料品などの商品に1ヶ月ごとなどの定期販売を設定 無料" [ref=e301] [cursor=pointer]:
+                      - /url: /applications/detail/62
+                      - img "定期便" [ref=e302]
+                      - generic [ref=e303]:
+                        - paragraph [ref=e304]: 定期便
+                        - paragraph [ref=e305]: 消耗品や食料品などの商品に1ヶ月ごとなどの定期販売を設定
+                      - paragraph [ref=e307]: 無料
+                  - listitem [ref=e308]:
+                    - link "予約販売 予約販売 入荷前の新商品や話題の商品を先行販売 無料 ※Apps内課金あり" [ref=e309] [cursor=pointer]:
+                      - /url: /applications/detail/86
+                      - img "予約販売" [ref=e310]
+                      - generic [ref=e311]:
+                        - paragraph [ref=e312]: 予約販売
+                        - paragraph [ref=e313]: 入荷前の新商品や話題の商品を先行販売
+                      - generic [ref=e314]:
+                        - paragraph [ref=e315]: 無料
+                        - paragraph [ref=e316]: ※Apps内課金あり
+                  - listitem [ref=e317]:
+                    - link "抽選販売 抽選販売 数量の限られた人気商品を抽選で販売 無料" [ref=e318] [cursor=pointer]:
+                      - /url: /applications/detail/88
+                      - img "抽選販売" [ref=e319]
+                      - generic [ref=e320]:
+                        - paragraph [ref=e321]: 抽選販売
+                        - paragraph [ref=e322]: 数量の限られた人気商品を抽選で販売
+                      - paragraph [ref=e324]: 無料
+                  - listitem [ref=e325]:
+                    - link "販売期間設定 販売期間設定 商品の販売開始・終了日時を設定 無料" [ref=e326] [cursor=pointer]:
+                      - /url: /applications/detail/79
+                      - img "販売期間設定" [ref=e327]
+                      - generic [ref=e328]:
+                        - paragraph [ref=e329]: 販売期間設定
+                        - paragraph [ref=e330]: 商品の販売開始・終了日時を設定
+                      - paragraph [ref=e332]: 無料
+                  - listitem [ref=e333]:
+                    - link "テイクアウト テイクアウト テイクアウト商品を事前注文・決済 無料" [ref=e334] [cursor=pointer]:
+                      - /url: /applications/detail/105
+                      - img "テイクアウト" [ref=e335]
+                      - generic [ref=e336]:
+                        - paragraph [ref=e337]: テイクアウト
+                        - paragraph [ref=e338]: テイクアウト商品を事前注文・決済
+                      - paragraph [ref=e340]: 無料
+                  - listitem [ref=e341]:
+                    - link "商品オプション 商品オプション 文字入れやギフト用ラッピングなどを無料／有料で設定 無料" [ref=e342] [cursor=pointer]:
+                      - /url: /applications/detail/96
+                      - img "商品オプション" [ref=e343]
+                      - generic [ref=e344]:
+                        - paragraph [ref=e345]: 商品オプション
+                        - paragraph [ref=e346]: 文字入れやギフト用ラッピングなどを無料／有料で設定
+                      - paragraph [ref=e348]: 無料
+              - generic [ref=e349]:
+                - heading "ショップをデザインする" [level=3] [ref=e350]
+                - list [ref=e351]:
+                  - listitem [ref=e352]:
+                    - link "BASEロゴ非表示 BASEロゴ非表示 BASEロゴを非表示にして、ショップのデザインをよりあなたらしく ¥500" [ref=e353] [cursor=pointer]:
+                      - /url: /applications/detail/52
+                      - img "BASEロゴ非表示" [ref=e354]
+                      - generic [ref=e355]:
+                        - paragraph [ref=e356]: BASEロゴ非表示
+                        - paragraph [ref=e357]: BASEロゴを非表示にして、ショップのデザインをよりあなたらしく
+                      - paragraph [ref=e359]: ¥500
+                  - listitem [ref=e360]:
+                    - link "ショップロゴ作成 ショップロゴ作成 全20種類のフォントで、ショップのオリジナルロゴをかんたん作成 無料" [ref=e361] [cursor=pointer]:
+                      - /url: /applications/detail/8
+                      - img "ショップロゴ作成" [ref=e362]
+                      - generic [ref=e363]:
+                        - paragraph [ref=e364]: ショップロゴ作成
+                        - paragraph [ref=e365]: 全20種類のフォントで、ショップのオリジナルロゴをかんたん作成
+                      - paragraph [ref=e367]: 無料
+                  - listitem [ref=e368]:
+                    - link "ページ追加 ページ追加 ショップページへ、用途にあわせたページを自由に追加できます。 利用中" [ref=e369] [cursor=pointer]:
+                      - /url: /applications/detail/118
+                      - img "ページ追加" [ref=e370]
+                      - generic [ref=e371]:
+                        - paragraph [ref=e372]: ページ追加
+                        - paragraph [ref=e373]: ショップページへ、用途にあわせたページを自由に追加できます。
+                      - paragraph [ref=e375]: 利用中
+                  - listitem [ref=e376]:
+                    - link "HTML編集 HTML編集 HTML / CSSを編集して、ショップデザインをより自由に 利用中" [ref=e377] [cursor=pointer]:
+                      - /url: /applications/detail/107
+                      - img "HTML編集" [ref=e378]
+                      - generic [ref=e379]:
+                        - paragraph [ref=e380]: HTML編集
+                        - paragraph [ref=e381]: HTML / CSSを編集して、ショップデザインをより自由に
+                      - paragraph [ref=e383]: 利用中
+                  - listitem [ref=e384]:
+                    - link "お知らせバナー お知らせバナー ショップページの上部にお知らせを表示し、キャンペーン・クーポンなどを効果的にアピール。 利用中" [ref=e385] [cursor=pointer]:
+                      - /url: /applications/detail/124
+                      - img "お知らせバナー" [ref=e386]
+                      - generic [ref=e387]:
+                        - paragraph [ref=e388]: お知らせバナー
+                        - paragraph [ref=e389]: ショップページの上部にお知らせを表示し、キャンペーン・クーポンなどを効果的にアピール。
+                      - paragraph [ref=e391]: 利用中
+              - generic [ref=e392]:
+                - heading "商品を準備・作成する" [level=3] [ref=e393]
+                - list [ref=e394]:
+                  - listitem [ref=e395]:
+                    - link "オリジナルプリント.jp オリジナルプリント.jp Tシャツをはじめ約1500種のオリジナルグッズが簡単に作れて出品できます。1個から在庫不要です！ 無料 ※Apps内課金あり" [ref=e396] [cursor=pointer]:
+                      - /url: /applications/detail/91
+                      - img "オリジナルプリント.jp" [ref=e397]
+                      - generic [ref=e398]:
+                        - paragraph [ref=e399]: オリジナルプリント.jp
+                        - paragraph [ref=e400]: Tシャツをはじめ約1500種のオリジナルグッズが簡単に作れて出品できます。1個から在庫不要です！
+                      - generic [ref=e401]:
+                        - paragraph [ref=e402]: 無料
+                        - paragraph [ref=e403]: ※Apps内課金あり
+                  - listitem [ref=e404]:
+                    - link "monomy monomy アクセサリーが無料で簡単につくれる、売れる、アプリです。 無料 ※Apps内課金あり" [ref=e405] [cursor=pointer]:
+                      - /url: /applications/detail/82
+                      - img "monomy" [ref=e406]
+                      - generic [ref=e407]:
+                        - paragraph [ref=e408]: monomy
+                        - paragraph [ref=e409]: アクセサリーが無料で簡単につくれる、売れる、アプリです。
+                      - generic [ref=e410]:
+                        - paragraph [ref=e411]: 無料
+                        - paragraph [ref=e412]: ※Apps内課金あり
+                  - listitem [ref=e413]:
+                    - link "リモフォト by COLORFULLY リモフォト by COLORFULLY リモートでモデル撮影が完結。着用画像をかんたんに手配できます。 無料 ※Apps内課金あり" [ref=e414] [cursor=pointer]:
+                      - /url: /applications/detail/116
+                      - img "リモフォト by COLORFULLY" [ref=e415]
+                      - generic [ref=e416]:
+                        - paragraph [ref=e417]: リモフォト by COLORFULLY
+                        - paragraph [ref=e418]: リモートでモデル撮影が完結。着用画像をかんたんに手配できます。
+                      - generic [ref=e419]:
+                        - paragraph [ref=e420]: 無料
+                        - paragraph [ref=e421]: ※Apps内課金あり
+              - generic [ref=e422]:
+                - heading "注文を管理・発送する" [level=3] [ref=e423]
+                - list [ref=e424]:
+                  - listitem [ref=e425]:
+                    - link "送り状一括印刷 送り状一括印刷 送り状を一括で印刷・発送することができます 無料" [ref=e426] [cursor=pointer]:
+                      - /url: /applications/detail/138
+                      - img "送り状一括印刷" [ref=e427]
+                      - generic [ref=e428]:
+                        - paragraph [ref=e429]: 送り状一括印刷
+                        - paragraph [ref=e430]: 送り状を一括で印刷・発送することができます
+                      - paragraph [ref=e432]: 無料
+                  - listitem [ref=e433]:
+                    - link "注文データダウンロード 注文データダウンロード 注文データを、CSV形式で一括ダウンロード 利用中" [ref=e434] [cursor=pointer]:
+                      - /url: /applications/detail/95
+                      - img "注文データダウンロード" [ref=e435]
+                      - generic [ref=e436]:
+                        - paragraph [ref=e437]: 注文データダウンロード
+                        - paragraph [ref=e438]: 注文データを、CSV形式で一括ダウンロード
+                      - paragraph [ref=e440]: 利用中
+                  - listitem [ref=e441]:
+                    - link "納品書ダウンロード 納品書ダウンロード 納品書をワンクリックでダウンロード 利用中" [ref=e442] [cursor=pointer]:
+                      - /url: /applications/detail/29
+                      - img "納品書ダウンロード" [ref=e443]
+                      - generic [ref=e444]:
+                        - paragraph [ref=e445]: 納品書ダウンロード
+                        - paragraph [ref=e446]: 納品書をワンクリックでダウンロード
+                      - paragraph [ref=e448]: 利用中
+                  - listitem [ref=e449]:
+                    - link "送り状データダウンロード 送り状データダウンロード 送り状発行システムに適したデータをダウンロード 無料" [ref=e450] [cursor=pointer]:
+                      - /url: /applications/detail/106
+                      - img "送り状データダウンロード" [ref=e451]
+                      - generic [ref=e452]:
+                        - paragraph [ref=e453]: 送り状データダウンロード
+                        - paragraph [ref=e454]: 送り状発行システムに適したデータをダウンロード
+                      - paragraph [ref=e456]: 無料
+                  - listitem [ref=e457]:
+                    - link "CSV一括発送 CSV一括発送 CSVデータで複数の注文を一括発送 無料" [ref=e458] [cursor=pointer]:
+                      - /url: /applications/detail/71
+                      - img "CSV一括発送" [ref=e459]
+                      - generic [ref=e460]:
+                        - paragraph [ref=e461]: CSV一括発送
+                        - paragraph [ref=e462]: CSVデータで複数の注文を一括発送
+                      - paragraph [ref=e464]: 無料
+                  - listitem [ref=e465]:
+                    - link "ダンボールワン ダンボールワン 梱包資材をかんたんにお安く購入できます 無料 ※Apps内課金あり" [ref=e466] [cursor=pointer]:
+                      - /url: /applications/detail/136
+                      - img "ダンボールワン" [ref=e467]
+                      - generic [ref=e468]:
+                        - paragraph [ref=e469]: ダンボールワン
+                        - paragraph [ref=e470]: 梱包資材をかんたんにお安く購入できます
+                      - generic [ref=e471]:
+                        - paragraph [ref=e472]: 無料
+                        - paragraph [ref=e473]: ※Apps内課金あり
+                  - listitem [ref=e474]:
+                    - link "canal canal パッケージ印刷プラットフォーム「canal」 無料 ※Apps内課金あり" [ref=e475] [cursor=pointer]:
+                      - /url: /applications/detail/102
+                      - img "canal" [ref=e476]
+                      - generic [ref=e477]:
+                        - paragraph [ref=e478]: canal
+                        - paragraph [ref=e479]: パッケージ印刷プラットフォーム「canal」
+                      - generic [ref=e480]:
+                        - paragraph [ref=e481]: 無料
+                        - paragraph [ref=e482]: ※Apps内課金あり
+                  - listitem [ref=e483]:
+                    - link "宛名印刷 by labelmake.jp 宛名印刷 by labelmake.jp 手書きの作業を効率化!プロ向け新サービスを今すぐ無料で 無料 ※Apps内課金あり" [ref=e484] [cursor=pointer]:
+                      - /url: /applications/detail/111
+                      - img "宛名印刷 by labelmake.jp" [ref=e485]
+                      - generic [ref=e486]:
+                        - paragraph [ref=e487]: 宛名印刷 by labelmake.jp
+                        - paragraph [ref=e488]: 手書きの作業を効率化!プロ向け新サービスを今すぐ無料で
+                      - generic [ref=e489]:
+                        - paragraph [ref=e490]: 無料
+                        - paragraph [ref=e491]: ※Apps内課金あり
+                  - listitem [ref=e492]:
+                    - link "Ship&co Ship&co ヤマト、佐川、日本郵便などの送り状を数クリックで簡単発行！ 無料 ※Apps内課金あり" [ref=e493] [cursor=pointer]:
+                      - /url: /applications/detail/77
+                      - img "Ship&co" [ref=e494]
+                      - generic [ref=e495]:
+                        - paragraph [ref=e496]: Ship&co
+                        - paragraph [ref=e497]: ヤマト、佐川、日本郵便などの送り状を数クリックで簡単発行！
+                      - generic [ref=e498]:
+                        - paragraph [ref=e499]: 無料
+                        - paragraph [ref=e500]: ※Apps内課金あり
+                  - listitem [ref=e501]:
+                    - link "TEMPOSTAR スタータープラン TEMPOSTAR スタータープラン 「TEMPOSTAR（テンポスター）」で複数EC店舗の受注・在庫管理を自動化 無料 ※Apps内課金あり" [ref=e502] [cursor=pointer]:
+                      - /url: /applications/detail/131
+                      - img "TEMPOSTAR スタータープラン" [ref=e503]
+                      - generic [ref=e504]:
+                        - paragraph [ref=e505]: TEMPOSTAR スタータープラン
+                        - paragraph [ref=e506]: 「TEMPOSTAR（テンポスター）」で複数EC店舗の受注・在庫管理を自動化
+                      - generic [ref=e507]:
+                        - paragraph [ref=e508]: 無料
+                        - paragraph [ref=e509]: ※Apps内課金あり
+                  - listitem [ref=e510]:
+                    - link "ネクストエンジン ネクストエンジン ECサイト一括管理サービス「ネクストエンジン」と自動で連携。 無料 ※Apps内課金あり" [ref=e511] [cursor=pointer]:
+                      - /url: /applications/detail/119
+                      - img "ネクストエンジン" [ref=e512]
+                      - generic [ref=e513]:
+                        - paragraph [ref=e514]: ネクストエンジン
+                        - paragraph [ref=e515]: ECサイト一括管理サービス「ネクストエンジン」と自動で連携。
+                      - generic [ref=e516]:
+                        - paragraph [ref=e517]: 無料
+                        - paragraph [ref=e518]: ※Apps内課金あり
+                  - listitem [ref=e519]:
+                    - link "CROSS MALL CROSS MALL ネットショップ運営の受注処理・在庫管理ツールです。 無料 ※Apps内課金あり" [ref=e520] [cursor=pointer]:
+                      - /url: /applications/detail/113
+                      - img "CROSS MALL" [ref=e521]
+                      - generic [ref=e522]:
+                        - paragraph [ref=e523]: CROSS MALL
+                        - paragraph [ref=e524]: ネットショップ運営の受注処理・在庫管理ツールです。
+                      - generic [ref=e525]:
+                        - paragraph [ref=e526]: 無料
+                        - paragraph [ref=e527]: ※Apps内課金あり
+                  - listitem [ref=e528]:
+                    - link "NEOlogi NEOlogi 世界150ヵ国に配送可能！国内・海外向け配送代行サービスです 無料 ※Apps内課金あり" [ref=e529] [cursor=pointer]:
+                      - /url: /applications/detail/109
+                      - img "NEOlogi" [ref=e530]
+                      - generic [ref=e531]:
+                        - paragraph [ref=e532]: NEOlogi
+                        - paragraph [ref=e533]: 世界150ヵ国に配送可能！国内・海外向け配送代行サービスです
+                      - generic [ref=e534]:
+                        - paragraph [ref=e535]: 無料
+                        - paragraph [ref=e536]: ※Apps内課金あり
+                  - listitem [ref=e537]:
+                    - link "ロジモプロ ロジモプロ 商品受注から出荷までを全自動！データ処理不要の物流サービスです。 無料 ※Apps内課金あり" [ref=e538] [cursor=pointer]:
+                      - /url: /applications/detail/97
+                      - img "ロジモプロ" [ref=e539]
+                      - generic [ref=e540]:
+                        - paragraph [ref=e541]: ロジモプロ
+                        - paragraph [ref=e542]: 商品受注から出荷までを全自動！データ処理不要の物流サービスです。
+                      - generic [ref=e543]:
+                        - paragraph [ref=e544]: 無料
+                        - paragraph [ref=e545]: ※Apps内課金あり
+                  - listitem [ref=e546]:
+                    - link "商品の保管・梱包・配送代行サービス 商品の保管・梱包・配送代行サービス 保管・梱包・配送は全ておまかせ！簡単操作で商品をお届けします。 無料 ※Apps内課金あり" [ref=e547] [cursor=pointer]:
+                      - /url: /applications/detail/21
+                      - img "商品の保管・梱包・配送代行サービス" [ref=e548]
+                      - generic [ref=e549]:
+                        - paragraph [ref=e550]: 商品の保管・梱包・配送代行サービス
+                        - paragraph [ref=e551]: 保管・梱包・配送は全ておまかせ！簡単操作で商品をお届けします。
+                      - generic [ref=e552]:
+                        - paragraph [ref=e553]: 無料
+                        - paragraph [ref=e554]: ※Apps内課金あり
+              - generic [ref=e555]:
+                - heading "お客様を集める" [level=3] [ref=e556]
+                - list [ref=e557]:
+                  - listitem [ref=e558]:
+                    - link "SEO設定 SEO設定 「検索キーワード」「説明文」を設定して、検索表示を上位に 利用中" [ref=e559] [cursor=pointer]:
+                      - /url: /applications/detail/4
+                      - img "SEO設定" [ref=e560]
+                      - generic [ref=e561]:
+                        - paragraph [ref=e562]: SEO設定
+                        - paragraph [ref=e563]: 「検索キーワード」「説明文」を設定して、検索表示を上位に
+                      - paragraph [ref=e565]: 利用中
+                  - listitem [ref=e566]:
+                    - link "ブログ ブログ 売上アップに有効なブログをかんたんに作成、公開 無料" [ref=e567] [cursor=pointer]:
+                      - /url: /applications/detail/43
+                      - img "ブログ" [ref=e568]
+                      - generic [ref=e569]:
+                        - paragraph [ref=e570]: ブログ
+                        - paragraph [ref=e571]: 売上アップに有効なブログをかんたんに作成、公開
+                      - paragraph [ref=e573]: 無料
+                  - listitem [ref=e574]:
+                    - link "TikTok商品連携・広告 TikTok商品連携・広告 TikTok（ティックトック）に商品情報を連携して広告配信ができます。 無料 ※Apps内課金あり" [ref=e575] [cursor=pointer]:
+                      - /url: /applications/detail/125
+                      - img "TikTok商品連携・広告" [ref=e576]
+                      - generic [ref=e577]:
+                        - paragraph [ref=e578]: TikTok商品連携・広告
+                        - paragraph [ref=e579]: TikTok（ティックトック）に商品情報を連携して広告配信ができます。
+                      - generic [ref=e580]:
+                        - paragraph [ref=e581]: 無料
+                        - paragraph [ref=e582]: ※Apps内課金あり
+                  - listitem [ref=e583]:
+                    - link "Instagram広告 Instagram広告 Instagram(インスタグラム)で広告を配信することができます。 無料" [ref=e584] [cursor=pointer]:
+                      - /url: /applications/detail/110
+                      - img "Instagram広告" [ref=e585]
+                      - generic [ref=e586]:
+                        - paragraph [ref=e587]: Instagram広告
+                        - paragraph [ref=e588]: Instagram(インスタグラム)で広告を配信することができます。
+                      - paragraph [ref=e590]: 無料
+                  - listitem [ref=e591]:
+                    - link "YouTube & Google連携 YouTube & Google連携 YouTubeショッピングやGoogle検索のショッピングタブに商品を表示することができます。 利用中 ※Apps内課金あり" [ref=e592] [cursor=pointer]:
+                      - /url: /applications/detail/115
+                      - img "YouTube & Google連携" [ref=e593]
+                      - generic [ref=e594]:
+                        - paragraph [ref=e595]: YouTube & Google連携
+                        - paragraph [ref=e596]: YouTubeショッピングやGoogle検索のショッピングタブに商品を表示することができます。
+                      - generic [ref=e597]:
+                        - paragraph [ref=e598]: 利用中
+                        - paragraph [ref=e599]: ※Apps内課金あり
+                  - listitem [ref=e600]:
+                    - link "CAMPFIRE連携 CAMPFIRE連携 ショップアカウントでクラウドファンディングを実施できます。 無料 ※Apps内課金あり" [ref=e601] [cursor=pointer]:
+                      - /url: /applications/detail/123
+                      - img "CAMPFIRE連携" [ref=e602]
+                      - generic [ref=e603]:
+                        - paragraph [ref=e604]: CAMPFIRE連携
+                        - paragraph [ref=e605]: ショップアカウントでクラウドファンディングを実施できます。
+                      - generic [ref=e606]:
+                        - paragraph [ref=e607]: 無料
+                        - paragraph [ref=e608]: ※Apps内課金あり
+                  - listitem [ref=e609]:
+                    - link "noteストア noteストア ショップの商品情報をnoteに連携するためのRSSを取得できるAppです。 無料" [ref=e610] [cursor=pointer]:
+                      - /url: /applications/detail/101
+                      - img "noteストア" [ref=e611]
+                      - generic [ref=e612]:
+                        - paragraph [ref=e613]: noteストア
+                        - paragraph [ref=e614]: ショップの商品情報をnoteに連携するためのRSSを取得できるAppです。
+                      - paragraph [ref=e616]: 無料
+                  - listitem [ref=e617]:
+                    - link "プレスリリース配信 by ValuePress! プレスリリース配信 by ValuePress! ショップ情報をメディアに届けるプレスリリース配信サービス。 無料 ※Apps内課金あり" [ref=e618] [cursor=pointer]:
+                      - /url: /applications/detail/38
+                      - img "プレスリリース配信 by ValuePress!" [ref=e619]
+                      - generic [ref=e620]:
+                        - paragraph [ref=e621]: プレスリリース配信 by ValuePress!
+                        - paragraph [ref=e622]: ショップ情報をメディアに届けるプレスリリース配信サービス。
+                      - generic [ref=e623]:
+                        - paragraph [ref=e624]: 無料
+                        - paragraph [ref=e625]: ※Apps内課金あり
+              - generic [ref=e626]:
+                - heading "売上を向上させる" [level=3] [ref=e627]
+                - list [ref=e628]:
+                  - listitem [ref=e629]:
+                    - link "メンバーシップ メンバーシップ 会員のお客様と繋がりを深められるメンバーシップを開設 無料" [ref=e630] [cursor=pointer]:
+                      - /url: /applications/detail/129
+                      - img "メンバーシップ" [ref=e631]
+                      - generic [ref=e632]:
+                        - paragraph [ref=e633]: メンバーシップ
+                        - paragraph [ref=e634]: 会員のお客様と繋がりを深められるメンバーシップを開設
+                      - paragraph [ref=e636]: 無料
+                  - listitem [ref=e637]:
+                    - link "クーポン クーポン 有効期間や購入回数制限、アプリでお気に入りした人にリーチも 利用中" [ref=e638] [cursor=pointer]:
+                      - /url: /applications/detail/30
+                      - img "クーポン" [ref=e639]
+                      - generic [ref=e640]:
+                        - paragraph [ref=e641]: クーポン
+                        - paragraph [ref=e642]: 有効期間や購入回数制限、アプリでお気に入りした人にリーチも
+                      - paragraph [ref=e644]: 利用中
+                  - listitem [ref=e645]:
+                    - link "メールマガジン メールマガジン 購入者向けメルマガをかんたん作成、無料で配信 利用中" [ref=e646] [cursor=pointer]:
+                      - /url: /applications/detail/41
+                      - img "メールマガジン" [ref=e647]
+                      - generic [ref=e648]:
+                        - paragraph [ref=e649]: メールマガジン
+                        - paragraph [ref=e650]: 購入者向けメルマガをかんたん作成、無料で配信
+                      - paragraph [ref=e652]: 利用中
+                  - listitem [ref=e653]:
+                    - link "レビュー レビュー 購入してくれたお客様からのレビューでショップ信頼度を向上 利用中" [ref=e654] [cursor=pointer]:
+                      - /url: /applications/detail/64
+                      - img "レビュー" [ref=e655]
+                      - generic [ref=e656]:
+                        - paragraph [ref=e657]: レビュー
+                        - paragraph [ref=e658]: 購入してくれたお客様からのレビューでショップ信頼度を向上
+                      - paragraph [ref=e660]: 利用中
+                  - listitem [ref=e661]:
+                    - link "セール セール 指定の商品にセール価格を設定、お気に入りした人への販促も 無料" [ref=e662] [cursor=pointer]:
+                      - /url: /applications/detail/66
+                      - img "セール" [ref=e663]
+                      - generic [ref=e664]:
+                        - paragraph [ref=e665]: セール
+                        - paragraph [ref=e666]: 指定の商品にセール価格を設定、お気に入りした人への販促も
+                      - paragraph [ref=e668]: 無料
+                  - listitem [ref=e669]:
+                    - link "商品説明カスタム 商品説明カスタム 商品ページに動画やスライドショーなどの多様なコンテンツを追加 利用中" [ref=e670] [cursor=pointer]:
+                      - /url: /applications/detail/94
+                      - img "商品説明カスタム" [ref=e671]
+                      - generic [ref=e672]:
+                        - paragraph [ref=e673]: 商品説明カスタム
+                        - paragraph [ref=e674]: 商品ページに動画やスライドショーなどの多様なコンテンツを追加
+                      - paragraph [ref=e676]: 利用中
+                  - listitem [ref=e677]:
+                    - link "Instagram販売 Instagram販売 Instagram(インスタグラム)で商品を販売することができます。 利用中" [ref=e678] [cursor=pointer]:
+                      - /url: /applications/detail/74
+                      - img "Instagram販売" [ref=e679]
+                      - generic [ref=e680]:
+                        - paragraph [ref=e681]: Instagram販売
+                        - paragraph [ref=e682]: Instagram(インスタグラム)で商品を販売することができます。
+                      - paragraph [ref=e684]: 利用中
+                  - listitem [ref=e685]:
+                    - link "おみせコネクト おみせコネクト LINEとBASEを連携してLINEメッセージをより効果的に 利用中 ※Apps内課金あり" [ref=e686] [cursor=pointer]:
+                      - /url: /applications/detail/150
+                      - img "おみせコネクト" [ref=e687]
+                      - generic [ref=e688]:
+                        - paragraph [ref=e689]: おみせコネクト
+                        - paragraph [ref=e690]: LINEとBASEを連携してLINEメッセージをより効果的に
+                      - generic [ref=e691]:
+                        - paragraph [ref=e692]: 利用中
+                        - paragraph [ref=e693]: ※Apps内課金あり
+              - generic [ref=e694]:
+                - heading "ショップの課題を分析する" [level=3] [ref=e695]
+                - list [ref=e696]:
+                  - listitem [ref=e697]:
+                    - link "HTMLタグ管理 HTMLタグ管理 任意のHTMLタグの設置・編集・削除ができます。 無料" [ref=e698] [cursor=pointer]:
+                      - /url: /applications/detail/130
+                      - img "HTMLタグ管理" [ref=e699]
+                      - generic [ref=e700]:
+                        - paragraph [ref=e701]: HTMLタグ管理
+                        - paragraph [ref=e702]: 任意のHTMLタグの設置・編集・削除ができます。
+                      - paragraph [ref=e704]: 無料
+                  - listitem [ref=e705]:
+                    - link "広告効果測定 広告効果測定 広告の効果を測定するためのタグをかんたんにショップに設置 無料" [ref=e706] [cursor=pointer]:
+                      - /url: /applications/detail/50
+                      - img "広告効果測定" [ref=e707]
+                      - generic [ref=e708]:
+                        - paragraph [ref=e709]: 広告効果測定
+                        - paragraph [ref=e710]: 広告の効果を測定するためのタグをかんたんにショップに設置
+                      - paragraph [ref=e712]: 無料
+                  - listitem [ref=e713]:
+                    - link "Googleコンバージョンタグ設定 Googleコンバージョンタグ設定 Google 広告のコンバージョンタグを設定 無料" [ref=e714] [cursor=pointer]:
+                      - /url: /applications/detail/27
+                      - img "Googleコンバージョンタグ設定" [ref=e715]
+                      - generic [ref=e716]:
+                        - paragraph [ref=e717]: Googleコンバージョンタグ設定
+                        - paragraph [ref=e718]: Google 広告のコンバージョンタグを設定
+                      - paragraph [ref=e720]: 無料
+                  - listitem [ref=e721]:
+                    - link "アンケート アンケート 購入者にアンケートを実施、年齢や性別、購入のきっかけなどがわかる 利用中" [ref=e722] [cursor=pointer]:
+                      - /url: /applications/detail/127
+                      - img "アンケート" [ref=e723]
+                      - generic [ref=e724]:
+                        - paragraph [ref=e725]: アンケート
+                        - paragraph [ref=e726]: 購入者にアンケートを実施、年齢や性別、購入のきっかけなどがわかる
+                      - paragraph [ref=e728]: 利用中
+              - generic [ref=e729]:
+                - heading "ショップ運営を効率化する" [level=3] [ref=e730]
+                - list [ref=e731]:
+                  - listitem [ref=e732]:
+                    - link "スタッフ権限管理 スタッフ権限管理 あなたのショップにスタッフを招待し、いっしょに運営・管理することができます。 無料" [ref=e733] [cursor=pointer]:
+                      - /url: /applications/detail/121
+                      - img "スタッフ権限管理" [ref=e734]
+                      - generic [ref=e735]:
+                        - paragraph [ref=e736]: スタッフ権限管理
+                        - paragraph [ref=e737]: あなたのショップにスタッフを招待し、いっしょに運営・管理することができます。
+                      - paragraph [ref=e739]: 無料
+                  - listitem [ref=e740]:
+                    - link "商品コード 商品コード オリジナルの商品管理コードを商品に登録 無料" [ref=e741] [cursor=pointer]:
+                      - /url: /applications/detail/93
+                      - img "商品コード" [ref=e742]
+                      - generic [ref=e743]:
+                        - paragraph [ref=e744]: 商品コード
+                        - paragraph [ref=e745]: オリジナルの商品管理コードを商品に登録
+                      - paragraph [ref=e747]: 無料
+                  - listitem [ref=e748]:
+                    - link "メッセージ メッセージ ショップ上でお客様とやりとりできる、メッセージウインドウ 無料" [ref=e749] [cursor=pointer]:
+                      - /url: /applications/detail/75
+                      - img "メッセージ" [ref=e750]
+                      - generic [ref=e751]:
+                        - paragraph [ref=e752]: メッセージ
+                        - paragraph [ref=e753]: ショップ上でお客様とやりとりできる、メッセージウインドウ
+                      - paragraph [ref=e755]: 無料
+                  - listitem [ref=e756]:
+                    - link "売上データダウンロード 売上データダウンロード 指定した期間の入出金データを、CSV形式でダウンロード 利用中" [ref=e757] [cursor=pointer]:
+                      - /url: /applications/detail/114
+                      - img "売上データダウンロード" [ref=e758]
+                      - generic [ref=e759]:
+                        - paragraph [ref=e760]: 売上データダウンロード
+                        - paragraph [ref=e761]: 指定した期間の入出金データを、CSV形式でダウンロード
+                      - paragraph [ref=e763]: 利用中
+                  - listitem [ref=e764]:
+                    - link "CSV商品管理 CSV商品管理 商品情報を一括で登録・更新・ダウンロード 無料" [ref=e765] [cursor=pointer]:
+                      - /url: /applications/detail/92
+                      - img "CSV商品管理" [ref=e766]
+                      - generic [ref=e767]:
+                        - paragraph [ref=e768]: CSV商品管理
+                        - paragraph [ref=e769]: 商品情報を一括で登録・更新・ダウンロード
+                      - paragraph [ref=e771]: 無料
+                  - listitem [ref=e772]:
+                    - link "再入荷自動通知 再入荷自動通知 在庫が復活すると自動で再入荷メール通知が送信されます。 無料" [ref=e773] [cursor=pointer]:
+                      - /url: /applications/detail/120
+                      - img "再入荷自動通知" [ref=e774]
+                      - generic [ref=e775]:
+                        - paragraph [ref=e776]: 再入荷自動通知
+                        - paragraph [ref=e777]: 在庫が復活すると自動で再入荷メール通知が送信されます。
+                      - paragraph [ref=e779]: 無料
+                  - listitem [ref=e780]:
+                    - link "タオバオ新幹線 タオバオ新幹線 タオバオ仕入れ・お客様への直送代行サービスです。 無料 ※Apps内課金あり" [ref=e781] [cursor=pointer]:
+                      - /url: /applications/detail/85
+                      - img "タオバオ新幹線" [ref=e782]
+                      - generic [ref=e783]:
+                        - paragraph [ref=e784]: タオバオ新幹線
+                        - paragraph [ref=e785]: タオバオ仕入れ・お客様への直送代行サービスです。
+                      - generic [ref=e786]:
+                        - paragraph [ref=e787]: 無料
+                        - paragraph [ref=e788]: ※Apps内課金あり
+                  - listitem [ref=e789]:
+                    - link "orosy orosy BtoB受注サイトを構築、事業者（店舗）向けに販売できます 無料 ※Apps内課金あり" [ref=e790] [cursor=pointer]:
+                      - /url: /applications/detail/89
+                      - img "orosy" [ref=e791]
+                      - generic [ref=e792]:
+                        - paragraph [ref=e793]: orosy
+                        - paragraph [ref=e794]: BtoB受注サイトを構築、事業者（店舗）向けに販売できます
+                      - generic [ref=e795]:
+                        - paragraph [ref=e796]: 無料
+                        - paragraph [ref=e797]: ※Apps内課金あり
+                  - listitem [ref=e798]:
+                    - link "THE CKB｜仕入れ・生産・配送マネージャー THE CKB｜仕入れ・生産・配送マネージャー 自動発注＆自動発送機能を実現！新商品を店舗に一括登録！ 無料" [ref=e799] [cursor=pointer]:
+                      - /url: /applications/detail/126
+                      - img "THE CKB｜仕入れ・生産・配送マネージャー" [ref=e800]
+                      - generic [ref=e801]:
+                        - paragraph [ref=e802]: THE CKB｜仕入れ・生産・配送マネージャー
+                        - paragraph [ref=e803]: 自動発注＆自動発送機能を実現！新商品を店舗に一括登録！
+                      - paragraph [ref=e805]: 無料
+                  - listitem [ref=e806]:
+                    - link "NAWABARI NAWABARI 特商法欄における商品の発送元情報に、自宅の住所を使わずにショップを運営できます 無料 ※Apps内課金あり" [ref=e807] [cursor=pointer]:
+                      - /url: /applications/detail/90
+                      - img "NAWABARI" [ref=e808]
+                      - generic [ref=e809]:
+                        - paragraph [ref=e810]: NAWABARI
+                        - paragraph [ref=e811]: 特商法欄における商品の発送元情報に、自宅の住所を使わずにショップを運営できます
+                      - generic [ref=e812]:
+                        - paragraph [ref=e813]: 無料
+                        - paragraph [ref=e814]: ※Apps内課金あり
+                  - listitem [ref=e815]:
+                    - link "仕入れサイト スーパーデリバリー 仕入れサイト スーパーデリバリー 仕入れサイト「スーパーデリバリー」の商品情報を自動で取り込み 無料 ※Apps内課金あり" [ref=e816] [cursor=pointer]:
+                      - /url: /applications/detail/117
+                      - img "仕入れサイト スーパーデリバリー" [ref=e817]
+                      - generic [ref=e818]:
+                        - paragraph [ref=e819]: 仕入れサイト スーパーデリバリー
+                        - paragraph [ref=e820]: 仕入れサイト「スーパーデリバリー」の商品情報を自動で取り込み
+                      - generic [ref=e821]:
+                        - paragraph [ref=e822]: 無料
+                        - paragraph [ref=e823]: ※Apps内課金あり
+                  - listitem [ref=e824]:
+                    - link "AYATORI AYATORI オリジナルアパレル商材の製作を手取り足取りサポートします！ 無料 ※Apps内課金あり" [ref=e825] [cursor=pointer]:
+                      - /url: /applications/detail/112
+                      - img "AYATORI" [ref=e826]
+                      - generic [ref=e827]:
+                        - paragraph [ref=e828]: AYATORI
+                        - paragraph [ref=e829]: オリジナルアパレル商材の製作を手取り足取りサポートします！
+                      - generic [ref=e830]:
+                        - paragraph [ref=e831]: 無料
+                        - paragraph [ref=e832]: ※Apps内課金あり
+                  - listitem [ref=e833]:
+                    - link "ChatPlus ChatPlus 売上アップに欠かせない！最新のチャット&チャットボットツール 無料 ※Apps内課金あり" [ref=e834] [cursor=pointer]:
+                      - /url: /applications/detail/78
+                      - img "ChatPlus" [ref=e835]
+                      - generic [ref=e836]:
+                        - paragraph [ref=e837]: ChatPlus
+                        - paragraph [ref=e838]: 売上アップに欠かせない！最新のチャット&チャットボットツール
+                      - generic [ref=e839]:
+                        - paragraph [ref=e840]: 無料
+                        - paragraph [ref=e841]: ※Apps内課金あり
+                  - listitem [ref=e842]:
+                    - link "スマレジ在庫連携 スマレジ在庫連携 実店舗とBASEの在庫や売上を一元管理できます。 無料 ※Apps内課金あり" [ref=e843] [cursor=pointer]:
+                      - /url: /applications/detail/122
+                      - img "スマレジ在庫連携" [ref=e844]
+                      - generic [ref=e845]:
+                        - paragraph [ref=e846]: スマレジ在庫連携
+                        - paragraph [ref=e847]: 実店舗とBASEの在庫や売上を一元管理できます。
+                      - generic [ref=e848]:
+                        - paragraph [ref=e849]: 無料
+                        - paragraph [ref=e850]: ※Apps内課金あり
+                  - listitem [ref=e851]:
+                    - link "Square連携 Square連携 Square（実店舗 / ネットショップ）とBASE（ネットショップ）の商品在庫を連携が行えます 無料" [ref=e852] [cursor=pointer]:
+                      - /url: /applications/detail/134
+                      - img "Square連携" [ref=e853]
+                      - generic [ref=e854]:
+                        - paragraph [ref=e855]: Square連携
+                        - paragraph [ref=e856]: Square（実店舗 / ネットショップ）とBASE（ネットショップ）の商品在庫を連携が行えます
+                      - paragraph [ref=e858]: 無料
+              - generic [ref=e859]:
+                - heading "お金を管理する" [level=3] [ref=e860]
+                - list [ref=e861]:
+                  - listitem [ref=e862]:
+                    - link "定期振込 定期振込 毎月決まったサイクルで売上を自動で振込 利用中" [ref=e863] [cursor=pointer]:
+                      - /url: /applications/detail/128
+                      - img "定期振込" [ref=e864]
+                      - generic [ref=e865]:
+                        - paragraph [ref=e866]: 定期振込
+                        - paragraph [ref=e867]: 毎月決まったサイクルで売上を自動で振込
+                      - paragraph [ref=e869]: 利用中
+                  - listitem [ref=e870]:
+                    - link "不正決済保証 不正決済保証 チャージバックによる被害金額を補償（提供：株式会社アクル） ¥980から" [ref=e871] [cursor=pointer]:
+                      - /url: /applications/detail/54
+                      - img "不正決済保証" [ref=e872]
+                      - generic [ref=e873]:
+                        - paragraph [ref=e874]: 不正決済保証
+                        - paragraph [ref=e875]: チャージバックによる被害金額を補償（提供：株式会社アクル）
+                      - paragraph [ref=e877]: ¥980から
+                  - listitem [ref=e878]:
+                    - link "売上管理 by freee（フリー） 売上管理 by freee（フリー） BASEの売上データを連携し、経理処理まで自動化。 利用中" [ref=e879] [cursor=pointer]:
+                      - /url: /applications/detail/39
+                      - img "売上管理 by freee（フリー）" [ref=e880]
+                      - generic [ref=e881]:
+                        - paragraph [ref=e882]: 売上管理 by freee（フリー）
+                        - paragraph [ref=e883]: BASEの売上データを連携し、経理処理まで自動化。
+                      - paragraph [ref=e885]: 利用中
+                  - listitem [ref=e886]:
+                    - link "売上管理 by マネーフォワード 売上管理 by マネーフォワード 確定申告作業をラクにするクラウド型確定申告ソフトです。 無料" [ref=e887] [cursor=pointer]:
+                      - /url: /applications/detail/32
+                      - img "売上管理 by マネーフォワード" [ref=e888]
+                      - generic [ref=e889]:
+                        - paragraph [ref=e890]: 売上管理 by マネーフォワード
+                        - paragraph [ref=e891]: 確定申告作業をラクにするクラウド型確定申告ソフトです。
+                      - paragraph [ref=e893]: 無料
+              - generic [ref=e894]:
+                - heading "その他" [level=3] [ref=e895]
+                - list [ref=e896]:
+                  - listitem [ref=e897]:
+                    - link "コミュニティ コミュニティ ショップのコミュニティを作成、会員限定コンテンツや限定商品を販売 無料" [ref=e898] [cursor=pointer]:
+                      - /url: /applications/detail/100
+                      - img "コミュニティ" [ref=e899]
+                      - generic [ref=e900]:
+                        - paragraph [ref=e901]: コミュニティ
+                        - paragraph [ref=e902]: ショップのコミュニティを作成、会員限定コンテンツや限定商品を販売
+                      - paragraph [ref=e904]: 無料
+                  - listitem [ref=e905]:
+                    - link "カスタムデザイン名刺 カスタムデザイン名刺 パソコンやスマホから誰でも簡単にオシャレな名刺が作成できます。 無料 ※Apps内課金あり" [ref=e906] [cursor=pointer]:
+                      - /url: /applications/detail/81
+                      - img "カスタムデザイン名刺" [ref=e907]
+                      - generic [ref=e908]:
+                        - paragraph [ref=e909]: カスタムデザイン名刺
+                        - paragraph [ref=e910]: パソコンやスマホから誰でも簡単にオシャレな名刺が作成できます。
+                      - generic [ref=e911]:
+                        - paragraph [ref=e912]: 無料
+                        - paragraph [ref=e913]: ※Apps内課金あり
+        - paragraph [ref=e916]:
+          - generic [ref=e917]: 
+          - generic [ref=e919]:
+            - text: 機能や使いやすさの改善のために、
+            - link "フォーム" [ref=e920] [cursor=pointer]:
+              - /url: //admin.thebase.com/shop_admin/owners_feedback?referrer=https%3A%2F%2Fdevelopers.thebase.com%2Fapplications
+            - text: よりご意見をお寄せください
+  - text:                        

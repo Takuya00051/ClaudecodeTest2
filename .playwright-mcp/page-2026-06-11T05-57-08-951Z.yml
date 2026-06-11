@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e6]:
+      - link "BASE" [ref=e7] [cursor=pointer]:
+        - /url: //thebase.com
+        - img "BASE" [ref=e8]
+      - heading "ログイン" [level=1] [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: メールアドレス
+            - textbox "メールアドレス" [ref=e18]:
+              - /placeholder: info@example.jp
+          - generic [ref=e19]:
+            - generic [ref=e20]: パスワード
+            - textbox "パスワード" [ref=e24]:
+              - /placeholder: 半角英数字記号6文字以上
+          - link "パスワードをお忘れですか？" [ref=e26] [cursor=pointer]:
+            - /url: /users/prepare_reset_password
+          - button "ログイン" [ref=e28] [cursor=pointer]:
+            - generic [ref=e30]: ログイン
+        - generic [ref=e31]: または
+        - button "パスキーでログイン" [ref=e35] [cursor=pointer]:
+          - generic [ref=e37]: パスキーでログイン
+        - link "ショップスタッフとしてログイン" [ref=e39] [cursor=pointer]:
+          - /url: /staffs/login
+        - generic [ref=e40]:
+          - generic [ref=e42]: ショップをはじめる方は
+          - link "無料ではじめる" [ref=e44] [cursor=pointer]:
+            - /url: /users/add
+  - contentinfo [ref=e45]:
+    - navigation [ref=e47]:
+      - img "BASE" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: サービス紹介
+          - generic [ref=e52]:
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - link "料金" [ref=e55] [cursor=pointer]:
+                  - /url: https://thebase.com/price
+              - listitem [ref=e56]:
+                - link "機能" [ref=e57] [cursor=pointer]:
+                  - /url: https://thebase.com/functions
+              - listitem [ref=e58]:
+                - link "デザイン" [ref=e59] [cursor=pointer]:
+                  - /url: https://thebase.com/shopdesign
+              - listitem [ref=e60]:
+                - link "事例" [ref=e61] [cursor=pointer]:
+                  - /url: https://thebase.com/casestudy
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - link "PAY ID" [ref=e64] [cursor=pointer]:
+                  - /url: https://payid.jp/owners
+              - listitem [ref=e65]:
+                - link "more BASE" [ref=e66] [cursor=pointer]:
+                  - /url: https://morebase.jp
+              - listitem [ref=e67]:
+                - link "YELL BANK" [ref=e68] [cursor=pointer]:
+                  - /url: https://yellbank-lp.thebase.com/
+              - listitem [ref=e69]:
+                - link "BASEカード" [ref=e70] [cursor=pointer]:
+                  - /url: https://basecard-lp.thebase.com/
+              - listitem [ref=e71]:
+                - link "BASE Community" [ref=e72] [cursor=pointer]:
+                  - /url: https://community.thebase.com/
+              - listitem [ref=e73]:
+                - link "BASE Partners" [ref=e74] [cursor=pointer]:
+                  - /url: https://thebase.com/partners
+              - listitem [ref=e75]:
+                - link "BASE U" [ref=e76] [cursor=pointer]:
+                  - /url: https://baseu.jp
+              - listitem [ref=e77]:
+                - link "Apps一覧" [ref=e78] [cursor=pointer]:
+                  - /url: https://apps.thebase.com
+              - listitem [ref=e79]:
+                - link "BASEデザイン マーケット" [ref=e80] [cursor=pointer]:
+                  - /url: https://design.thebase.com
+              - listitem [ref=e81]:
+                - link "開発者向けAPI" [ref=e82] [cursor=pointer]:
+                  - /url: https://developers.thebase.com
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - link "お問い合わせ" [ref=e85] [cursor=pointer]:
+                  - /url: https://help.thebase.in/hc/ja/requests/new
+              - listitem [ref=e86]:
+                - link "資料請求" [ref=e87] [cursor=pointer]:
+                  - /url: https://binc.form.kintoneapp.com/public/a181b6f5e4e7270f9c819c10d8b72bef3ff89dfb46796ba00b13d94bc584ef32?sc_user_inflow_source=top01
+              - listitem [ref=e88]:
+                - link "ヘルプ" [ref=e89] [cursor=pointer]:
+                  - /url: https://help.thebase.in/hc/ja
+              - listitem [ref=e90]:
+                - link "特定商取引法に基づく 表記" [ref=e91] [cursor=pointer]:
+                  - /url: https://thebase.com/pages/term1.html
+              - listitem [ref=e92]:
+                - link "利用規約" [ref=e93] [cursor=pointer]:
+                  - /url: https://thebase.com/pages/term2.html
+        - generic [ref=e94]:
+          - generic [ref=e95]: 企業情報
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "運営会社" [ref=e98] [cursor=pointer]:
+                - /url: https://binc.jp/about
+            - listitem [ref=e99]:
+              - link "採用情報" [ref=e100] [cursor=pointer]:
+                - /url: https://binc.jp/jobs
+            - listitem [ref=e101]:
+              - link "プレスルーム" [ref=e102] [cursor=pointer]:
+                - /url: https://binc.jp/press-room
+            - listitem [ref=e103]:
+              - link "プライバシーポリシー" [ref=e104] [cursor=pointer]:
+                - /url: https://binc.jp/privacy/
+      - generic [ref=e106]:
+        - link "BASEのInstagramへ" [ref=e107] [cursor=pointer]:
+          - /url: https://www.instagram.com/baseec
+          - img [ref=e108]
+        - link "BASEのYouTubeへ" [ref=e110] [cursor=pointer]:
+          - /url: https://www.youtube.com/@sub_baseec
+          - img [ref=e111]
+        - link "BASEのXへ" [ref=e113] [cursor=pointer]:
+          - /url: https://x.com/BASEec
+          - img [ref=e114]
+        - link "BASEのFacebookへ" [ref=e116] [cursor=pointer]:
+          - /url: http://www.facebook.com/pages/TheBase/442937109061521
+          - img [ref=e117]
+    - generic [ref=e119]: ©2012-2026 BASE, Inc.
