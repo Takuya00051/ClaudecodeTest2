@@ -1,0 +1,172 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "BENOBI bros." [ref=f3e4] [cursor=pointer]:
+        - /url: "#"
+      - button "メニュー" [ref=f3e5] [cursor=pointer]
+      - navigation [ref=f3e9]:
+        - list [ref=f3e10]:
+          - listitem [ref=f3e11]:
+            - link "Concept" [ref=f3e12] [cursor=pointer]:
+              - /url: "#concept"
+          - listitem [ref=f3e13]:
+            - link "Philosophy" [ref=f3e14] [cursor=pointer]:
+              - /url: "#philosophy"
+          - listitem [ref=f3e15]:
+            - link "Designer" [ref=f3e16] [cursor=pointer]:
+              - /url: "#designer"
+          - listitem [ref=f3e17]:
+            - link "Collection" [ref=f3e18] [cursor=pointer]:
+              - /url: "#collection"
+          - listitem [ref=f3e19]:
+            - link "Instagram" [ref=f3e20] [cursor=pointer]:
+              - /url: https://www.instagram.com/benobibros/
+          - listitem [ref=f3e21]:
+            - link "Online Store" [ref=f3e22] [cursor=pointer]:
+              - /url: https://benobibro.base.shop/
+  - generic [ref=f3e23]:
+    - generic [ref=f3e24]:
+      - generic [ref=f3e25]:
+        - paragraph [ref=f3e26]: BENOBI bros. — Figure Brand for Big Dog Lovers
+        - heading "でっかい愛を、 ちっちゃく飾ろう。" [level=1] [ref=f3e27]:
+          - text: でっかい愛を、
+          - text: ちっちゃく飾ろう。
+        - paragraph [ref=f3e28]: BENOBI bros.（ベンオビブラザーズ）は、大型犬専門のフィギュアブランド。犬種の祖から受け継がれた「らしさ」をフィギュアに落とし込み、世界中の大型犬オーナーが手に取れる、ちょうどいい存在を目指しています。
+      - figure "small BIG Dogs — Bernese Mountain Dog" [ref=f3e29]:
+        - img "バーニーズマウンテンドッグのフィギュア" [ref=f3e30]
+        - generic [ref=f3e31]: small BIG Dogs — Bernese Mountain Dog
+    - generic [ref=f3e33]: Scroll
+  - generic [ref=f3e35]:
+    - generic [ref=f3e36]:
+      - generic [ref=f3e37]: "01"
+      - generic [ref=f3e38]: Concept
+    - generic [ref=f3e39]:
+      - generic [ref=f3e40]:
+        - heading "犬種らしさを、 手に取れるスケールに。" [level=2] [ref=f3e41]:
+          - text: 犬種らしさを、
+          - text: 手に取れるスケールに。
+        - paragraph [ref=f3e42]: 大型犬には、犬種ごとに受け継がれてきた固有の骨格、毛量、たたずまいがあります。BENOBI bros. がフィギュアに落とし込むのは、その「犬種らしさ」そのものです。
+        - paragraph [ref=f3e43]: スケールを変えても、ひと目で「その犬種だ」とわかること。造形のすべてを、その基準で判断しています。
+        - paragraph [ref=f3e44]: 目指すのは、大きすぎず、小さすぎず、飾る場所を選ばない——世界中の大型犬オーナーが手に取れる「ちょうどいい存在」です。
+      - figure "small BIG Dogs — Golden Retriever" [ref=f3e45]:
+        - img "ゴールデンレトリバーのフィギュア" [ref=f3e46]
+        - generic [ref=f3e47]: small BIG Dogs — Golden Retriever
+  - generic [ref=f3e49]:
+    - generic [ref=f3e50]:
+      - generic [ref=f3e51]: "02"
+      - generic [ref=f3e52]: Philosophy
+    - paragraph [ref=f3e53]:
+      - text: 犬種の祖から受け継がれた「らしさ」を、フィギュアへ。
+      - text: ブランドを支える、みっつの基準。
+    - generic [ref=f3e54]:
+      - generic [ref=f3e55]:
+        - text: "1"
+        - heading "犬種らしさへの解像度" [level=3] [ref=f3e56]
+        - paragraph [ref=f3e57]: ハスキーの毛量、レオンベルガーの体躯、プードルのカットスタイル。犬種の祖から受け継がれてきた特徴を観察し、スケールを変えても損なわれない造形として再構築します。
+      - generic [ref=f3e58]:
+        - text: "2"
+        - heading "3Dモデリングと受注生産" [level=3] [ref=f3e59]
+        - paragraph [ref=f3e60]: 原型は3Dモデリングで設計し、3Dプリンターで一体ずつ製造・仕上げ。在庫を持たない受注生産により、多犬種・多サイズのラインナップ展開を可能にしています。
+      - generic [ref=f3e61]:
+        - text: "3"
+        - heading "世界中のオーナーの手に" [level=3] [ref=f3e62]
+        - paragraph [ref=f3e63]: 大きすぎず、小さすぎず、飾る場所を選ばない。海外発送にも対応し、世界中の大型犬オーナーにとっての「ちょうどいい存在」であることを目指します。
+  - generic [ref=f3e65]:
+    - generic [ref=f3e66]:
+      - generic [ref=f3e67]: "03"
+      - generic [ref=f3e68]: Designer
+    - generic [ref=f3e69]:
+      - generic [ref=f3e70]:
+        - figure "Takuya Nameki with BEN & OBI" [ref=f3e71]:
+          - img "TAKUYA NAMEKI と BEN、OBI のポートレート" [ref=f3e72]
+          - generic [ref=f3e73]: Takuya Nameki with BEN & OBI
+        - generic [ref=f3e74]:
+          - paragraph [ref=f3e75]: BIG Dog Director
+          - heading "TAKUYA NAMEKI" [level=3] [ref=f3e76]
+          - paragraph [ref=f3e77]: Designer / Founder
+      - generic [ref=f3e78]:
+        - heading "プロフィール" [level=2] [ref=f3e79]
+        - paragraph [ref=f3e80]: 幼少期から犬が好きで、大型犬と暮らすことを夢見て育つ。現在は、イングリッシュゴールデンレトリバーの「BEN」と、バーニーズマウンテンドッグの「OBI」——ふたりの相棒とともに暮らしている。
+        - paragraph [ref=f3e81]: 自分が本当に欲しいと思える大型犬モチーフのグッズが、世の中には少ない。その思いから、まずは自分自身のためにフィギュアを作りはじめた。やがて、同じ思いを抱く大型犬オーナーへ届けるため、2025年8月、大型犬専門フィギュアブランド「BENOBI bros.」を設立。ブランドの名は、BEN と OBI のふたりから受け継いでいる。
+        - paragraph [ref=f3e82]: デザインから製作、仕上げまで。そのすべてを、ひとりの手で行っている。
+  - generic [ref=f3e84]:
+    - generic [ref=f3e85]:
+      - generic [ref=f3e86]: "04"
+      - generic [ref=f3e87]: Collection
+    - paragraph [ref=f3e88]: 大型犬を中心とした15犬種以上のデフォルメフィギュアのほか、狛犬シリーズ、神社セット、アンブレラマーカーを展開しています。
+    - generic [ref=f3e89]:
+      - generic [ref=f3e90]:
+        - img "セントバーナードのフィギュア" [ref=f3e92]
+        - generic [ref=f3e93]:
+          - generic [ref=f3e94]: デフォルメフィギュア
+          - generic [ref=f3e95]: small BIG Dogs Series
+      - generic [ref=f3e96]:
+        - img "狛犬シリーズ 狛ゴル" [ref=f3e98]
+        - generic [ref=f3e99]:
+          - generic [ref=f3e100]: 狛犬シリーズ
+          - generic [ref=f3e101]: Komainu Series
+      - generic [ref=f3e102]:
+        - img "BENOBI 大犬守 神社セット" [ref=f3e104]
+        - generic [ref=f3e105]:
+          - generic [ref=f3e106]: 大犬守 神社セット
+          - generic [ref=f3e107]: Shrine Set
+      - generic [ref=f3e108]:
+        - img "アンブレラマーカー" [ref=f3e110]
+        - generic [ref=f3e111]:
+          - generic [ref=f3e112]: アンブレラマーカー
+          - generic [ref=f3e113]: Umbrella Marker
+      - generic [ref=f3e114]:
+        - img "シベリアンハスキーのフィギュア" [ref=f3e116]
+        - generic [ref=f3e117]:
+          - generic [ref=f3e118]: シベリアンハスキー
+          - generic [ref=f3e119]: Siberian Husky
+      - generic [ref=f3e120]:
+        - img "グレートピレニーズのフィギュア" [ref=f3e122]
+        - generic [ref=f3e123]:
+          - generic [ref=f3e124]: グレートピレニーズ
+          - generic [ref=f3e125]: Great Pyrenees
+      - generic [ref=f3e126]:
+        - img "スタンダードプードルのフィギュア" [ref=f3e128]
+        - generic [ref=f3e129]:
+          - generic [ref=f3e130]: スタンダードプードル
+          - generic [ref=f3e131]: Standard Poodle
+      - generic [ref=f3e132]:
+        - img "レオンベルガーのフィギュア" [ref=f3e134]
+        - generic [ref=f3e135]:
+          - generic [ref=f3e136]: レオンベルガー
+          - generic [ref=f3e137]: Leonberger
+    - generic [ref=f3e138]:
+      - paragraph [ref=f3e139]: すべてのラインナップと価格は、オンラインストアでご覧いただけます。
+      - link "View Online Store" [ref=f3e140] [cursor=pointer]:
+        - /url: https://benobibro.base.shop/
+  - generic [ref=f3e142]:
+    - text: Online Store
+    - heading "全ラインナップは、 オンラインストアで。" [level=2] [ref=f3e143]:
+      - text: 全ラインナップは、
+      - text: オンラインストアで。
+    - paragraph [ref=f3e144]:
+      - text: 受注生産のため、お届けまで10営業日ほどいただいています。
+      - text: 海外発送にも対応しています。
+    - link "BENOBI bros. Online Store" [ref=f3e145] [cursor=pointer]:
+      - /url: https://benobibro.base.shop/
+    - paragraph [ref=f3e146]:
+      - text: Instagram —
+      - link "@benobibros" [ref=f3e147] [cursor=pointer]:
+        - /url: https://www.instagram.com/benobibros/
+  - contentinfo [ref=f3e148]:
+    - generic [ref=f3e149]:
+      - generic [ref=f3e150]: BENOBI bros.
+      - generic [ref=f3e151]:
+        - link "Concept" [ref=f3e152] [cursor=pointer]:
+          - /url: "#concept"
+        - link "Philosophy" [ref=f3e153] [cursor=pointer]:
+          - /url: "#philosophy"
+        - link "Designer" [ref=f3e154] [cursor=pointer]:
+          - /url: "#designer"
+        - link "Collection" [ref=f3e155] [cursor=pointer]:
+          - /url: "#collection"
+        - link "Online Store" [ref=f3e156] [cursor=pointer]:
+          - /url: https://benobibro.base.shop/
+        - link "Instagram" [ref=f3e157] [cursor=pointer]:
+          - /url: https://www.instagram.com/benobibros/
+      - generic [ref=f3e158]: © 2026 BENOBI bros. All rights reserved.
