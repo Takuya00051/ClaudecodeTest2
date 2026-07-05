@@ -162,22 +162,17 @@ h2.sec-title{
 .designer-text p:first-of-type{margin-top:40px}
 @media(max-width:860px){.designer-grid{grid-template-columns:1fr;gap:52px}}
 
-/* ---------- collection ---------- */
-.collection .sec-lead{margin-top:-40px;margin-bottom:72px;font-size:.85rem;color:var(--gray);max-width:560px;line-height:2.2}
-.col-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
-.col-item{background:#fff;padding:0}
-.col-item .cimg{aspect-ratio:1/1;overflow:hidden}
-.col-item img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease,opacity .6s}
-.col-item:hover img{transform:scale(1.04)}
-.col-item .cap{
-  padding:18px 20px 22px;border-top:1px solid var(--line);
-}
-.col-item .cap b{display:block;font-weight:400;font-size:.78rem;letter-spacing:.1em}
-.col-item .cap span{display:block;font-family:'Inter',sans-serif;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-light);margin-top:6px}
-.col-note{margin-top:56px;text-align:center}
-.col-note p{font-size:.82rem;color:var(--gray)}
-@media(max-width:1000px){.col-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.col-grid{grid-template-columns:1fr}}
+/* ---------- instagram ---------- */
+.instagram .sec-lead{margin-top:-40px;margin-bottom:72px;font-size:.85rem;color:var(--gray);max-width:560px;line-height:2.2}
+.ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.ig-grid a{display:block;background:#fff;aspect-ratio:1/1;overflow:hidden}
+.ig-grid img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.ig-grid a:hover img{transform:scale(1.04)}
+.ig-note{margin-top:56px;text-align:center}
+.ig-note p{font-size:.82rem;color:var(--gray)}
+.ig-fallback{text-align:center;padding:48px 0;border:1px solid var(--line)}
+.ig-fallback p{font-size:.85rem;color:var(--gray)}
+@media(max-width:640px){.ig-grid{grid-template-columns:repeat(2,1fr)}}
 
 /* ---------- buttons ---------- */
 .btn{
@@ -222,8 +217,7 @@ footer{padding:64px 32px;border-top:1px solid var(--line)}
         <li><a href="#concept">Concept</a></li>
         <li><a href="#philosophy">Philosophy</a></li>
         <li><a href="#designer">Designer</a></li>
-        <li><a href="#collection">Collection</a></li>
-        <li><a href="https://www.instagram.com/benobibros/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#instagram">Instagram</a></li>
         <li><a class="nav-store" href="https://benobibro.base.shop/" target="_blank" rel="noopener">Online Store</a></li>
       </ul>
     </nav>
@@ -321,50 +315,19 @@ footer{padding:64px 32px;border-top:1px solid var(--line)}
   </div>
 </section>
 
-<section class="collection" id="collection">
+<section class="instagram" id="instagram">
   <div class="inner">
     <div class="sec-head reveal">
       <span class="sec-num">04</span>
-      <span class="sec-title-en">Collection</span>
+      <span class="sec-title-en">Instagram</span>
     </div>
-    <p class="sec-lead reveal">大型犬を中心とした15犬種以上のデフォルメフィギュアのほか、狛犬シリーズ、神社セット、アンブレラマーカーを展開しています。</p>
-    <div class="col-grid">
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/s-stbernard.jpg" alt="セントバーナードのフィギュア"></div>
-        <div class="cap"><b>デフォルメフィギュア</b><span>small BIG Dogs Series</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/koma-golden.jpg" alt="狛犬シリーズ 狛ゴル"></div>
-        <div class="cap"><b>狛犬シリーズ</b><span>Komainu Series</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/shrine.jpg" alt="BENOBI 大犬守 神社セット"></div>
-        <div class="cap"><b>大犬守 神社セット</b><span>Shrine Set</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/umbrella.png" alt="アンブレラマーカー"></div>
-        <div class="cap"><b>アンブレラマーカー</b><span>Umbrella Marker</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/s-husky.jpg" alt="シベリアンハスキーのフィギュア"></div>
-        <div class="cap"><b>シベリアンハスキー</b><span>Siberian Husky</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/s-pyrenees.jpg" alt="グレートピレニーズのフィギュア"></div>
-        <div class="cap"><b>グレートピレニーズ</b><span>Great Pyrenees</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/s-poodle2.jpg" alt="スタンダードプードルのフィギュア"></div>
-        <div class="cap"><b>スタンダードプードル</b><span>Standard Poodle</span></div>
-      </div>
-      <div class="col-item reveal">
-        <div class="cimg"><img src="assets/s-leonberger.jpg" alt="レオンベルガーのフィギュア"></div>
-        <div class="cap"><b>レオンベルガー</b><span>Leonberger</span></div>
-      </div>
+    <p class="sec-lead reveal">新作の情報や製作の様子は、Instagram で発信しています。</p>
+    <div class="ig-grid reveal" id="igGrid" hidden></div>
+    <div class="ig-fallback reveal" id="igFallback" hidden>
+      <p>最新の投稿は Instagram でご覧いただけます。</p>
     </div>
-    <div class="col-note reveal">
-      <p>すべてのラインナップと価格は、オンラインストアでご覧いただけます。</p>
-      <a class="btn" href="https://benobibro.base.shop/" target="_blank" rel="noopener">View Online Store</a>
+    <div class="ig-note reveal">
+      <a class="btn" href="https://www.instagram.com/benobibros/" target="_blank" rel="noopener">@benobibros</a>
     </div>
   </div>
 </section>
@@ -386,9 +349,8 @@ footer{padding:64px 32px;border-top:1px solid var(--line)}
       <a href="#concept">Concept</a>
       <a href="#philosophy">Philosophy</a>
       <a href="#designer">Designer</a>
-      <a href="#collection">Collection</a>
+      <a href="#instagram">Instagram</a>
       <a href="https://benobibro.base.shop/" target="_blank" rel="noopener">Online Store</a>
-      <a href="https://www.instagram.com/benobibros/" target="_blank" rel="noopener">Instagram</a>
     </div>
     <span class="copy">© 2026 BENOBI bros. All rights reserved.</span>
   </div>
@@ -409,6 +371,28 @@ const io=new IntersectionObserver(es=>{
   es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target);}});
 },{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* Instagram feed (Behold) */
+const IG_FEED_URL="";
+async function loadInstagram(){
+  const grid=document.getElementById('igGrid');
+  const fallback=document.getElementById('igFallback');
+  if(!IG_FEED_URL){fallback.hidden=false;return;}
+  try{
+    const res=await fetch(IG_FEED_URL);
+    if(!res.ok)throw new Error(res.status);
+    const data=await res.json();
+    const posts=(data.posts||data).slice(0,6);
+    if(!posts.length)throw new Error('empty');
+    grid.innerHTML=posts.map(p=>{
+      const img=(p.sizes&&p.sizes.medium&&p.sizes.medium.mediaUrl)||p.thumbnailUrl||p.mediaUrl;
+      const alt=(p.prunedCaption||p.caption||'Instagram post').slice(0,80);
+      return `<a href="${p.permalink}" target="_blank" rel="noopener"><img src="${img}" alt="${alt.replace(/"/g,'&quot;')}" loading="lazy"></a>`;
+    }).join('');
+    grid.hidden=false;
+  }catch(e){fallback.hidden=false;}
+}
+loadInstagram();
 </script>
 </body>
 </html>
