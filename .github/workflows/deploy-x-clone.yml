@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'x-clone/**'
+      - 'kyoto-literary-map/**'
       - '.github/workflows/deploy-x-clone.yml'
   workflow_dispatch:
 
@@ -44,6 +45,9 @@ jobs:
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run build
+
+      - name: Add kyoto-literary-map (static site served under /kyoto-literary-map/)
+        run: cp -r kyoto-literary-map x-clone/dist/kyoto-literary-map
 
       - uses: actions/configure-pages@v5
 
