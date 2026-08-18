@@ -47,7 +47,15 @@ jobs:
         run: npm run build
 
       - name: Add kyoto-literary-map (static site served under /kyoto-literary-map/)
-        run: cp -r kyoto-literary-map x-clone/dist/kyoto-literary-map
+        run: |
+          cp -r kyoto-literary-map x-clone/dist/kyoto-literary-map
+          # app.js/editor.js/style.css はブラウザに max-age=600 でキャッシュされるため、
+          # デプロイのたびにコミットSHAをクエリに付けて確実に最新版を読み込ませる
+          sed -i \
+            -e "s/app\.js\"/app.js?v=${GITHUB_SHA::8}\"/" \
+            -e "s/editor\.js\"/editor.js?v=${GITHUB_SHA::8}\"/" \
+            -e "s/style\.css\"/style.css?v=${GITHUB_SHA::8}\"/" \
+            x-clone/dist/kyoto-literary-map/index.html
 
       - uses: actions/configure-pages@v5
 
