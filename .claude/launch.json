@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "benobi-site",
+      "name": "kyoto-literary-map",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "benobi-site", "-l", "5050"],
-      "port": 5050
+      "runtimeArgs": ["-y", "serve", "kyoto-literary-map", "-l", "5500"],
+      "port": 5500
     }
   ]
 }
