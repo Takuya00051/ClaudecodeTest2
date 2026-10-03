@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Page Turner</string>
-    <string name="pair_help">PCで次の操作をしてください（2分以内）\n\n1. 設定 → Bluetooth とデバイス → デバイスの追加\n2.「Bluetooth」を選ぶ\n3. 一覧から「%1$s」を選ぶ\n4. 両方に表示された番号が同じなら「接続」\n\nつながると自動で読書画面に切り替わります。</string>
-</resources>
